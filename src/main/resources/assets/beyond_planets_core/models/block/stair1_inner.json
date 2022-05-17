@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "beyond_planets_core:block/block1",
+    "top": "beyond_planets_core:block/block1",
+    "side": "beyond_planets_core:block/block1"
+  }
+}

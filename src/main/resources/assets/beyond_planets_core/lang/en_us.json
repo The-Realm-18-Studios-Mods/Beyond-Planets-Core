@@ -6,6 +6,13 @@
   "block.beyond_planets_core.mars_lead_ore": "Mars Lead Ore",
 
 
+  "block.beyond_planets_core.venus_copper_ore": "Venus Copper Ore",
+  "block.beyond_planets_core.venus_tin_ore": "Venus Tin Ore",
+  "block.beyond_planets_core.venus_zinc_ore": "Venus Zinc Ore",
+  "block.beyond_planets_core.venus_uranium_ore": "Venus Uranium Ore",
+  "block.beyond_planets_core.venus_lead_ore": "Venus Lead Ore",
+
+
   "item.beyond_planets_core.raw_tin_ore": " Raw Tin Ore",
   "item.beyond_planets_core.raw_zinc_ore": "Raw Zinc Ore",
   "item.beyond_planets_core.raw_uranium_ore": "Raw Uranium Ore",

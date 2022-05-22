@@ -23,11 +23,11 @@ public class ItemGroups {
             return new ItemStack(ItemsRegistry.RAW_LEAD_ITEM.get(), 1);
         }
     };
-    public static CreativeModeTab TAB_BUILDING_BLOCKS = new CreativeModeTab("beyond_planets_core.tab_building_blocks") {
-        @OnlyIn(Dist.CLIENT)
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(ItemsRegistry.RAW_TIN_ITEM.get(), 1);
-        }
-    };
+//    public static CreativeModeTab TAB_BUILDING_BLOCKS = new CreativeModeTab("beyond_planets_core.tab_building_blocks") {
+//        @OnlyIn(Dist.CLIENT)
+//        @Override
+//        public ItemStack makeIcon() {
+//            return new ItemStack(ItemsRegistry.RAW_TIN_ITEM.get(), 1);
+//        }
+//    };
 }

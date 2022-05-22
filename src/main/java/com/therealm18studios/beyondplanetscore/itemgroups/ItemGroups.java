@@ -1,6 +1,6 @@
-package com.therealm18.beyondplanetscore.itemgroups;
+package com.therealm18studios.beyondplanetscore.itemgroups;
 
-import com.therealm18.beyondplanetscore.registries.ItemsRegistry;
+import com.therealm18studios.beyondplanetscore.registries.ItemsRegistry;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 

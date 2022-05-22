@@ -1,4 +1,4 @@
-package com.therealm18.beyondplanetscore.configurations.venus;
+package com.therealm18studios.beyondplanetscore.configurations.venus;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 

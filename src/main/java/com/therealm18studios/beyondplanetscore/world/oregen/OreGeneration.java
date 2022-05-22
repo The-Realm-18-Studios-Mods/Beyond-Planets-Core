@@ -1,11 +1,11 @@
-package com.therealm18.beyondplanetscore.world.oregen;
+package com.therealm18studios.beyondplanetscore.world.oregen;
 
-import com.therealm18.beyondplanetscore.BeyondPlanetsCore;
-import com.therealm18.beyondplanetscore.configurations.mars.MarsGeneralCommon;
-import com.therealm18.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
-import com.therealm18.beyondplanetscore.configurations.venus.VenusGeneralCommon;
-import com.therealm18.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
-import com.therealm18.beyondplanetscore.registries.BlocksRegistry;
+import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
+import com.therealm18studios.beyondplanetscore.configurations.mars.MarsGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.configurations.venus.VenusGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.registries.BlocksRegistry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.VerticalAnchor;

@@ -1,6 +1,6 @@
-package com.therealm18.beyondplanetscore.registries;
+package com.therealm18studios.beyondplanetscore.registries;
 
-import com.therealm18.beyondplanetscore.BeyondPlanetsCore;
+import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;

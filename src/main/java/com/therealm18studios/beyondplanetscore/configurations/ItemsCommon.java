@@ -1,4 +1,4 @@
-package com.therealm18.beyondplanetscore.configurations;
+package com.therealm18studios.beyondplanetscore.configurations;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 

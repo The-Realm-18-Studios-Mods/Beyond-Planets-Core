@@ -1,14 +1,14 @@
-package com.therealm18.beyondplanetscore;
+package com.therealm18studios.beyondplanetscore;
 
-import com.therealm18.beyondplanetscore.configurations.ItemsCommon;
-import com.therealm18.beyondplanetscore.configurations.mars.MarsBlocksCommon;
-import com.therealm18.beyondplanetscore.configurations.mars.MarsGeneralCommon;
-import com.therealm18.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
-import com.therealm18.beyondplanetscore.configurations.venus.VenusBlocksCommon;
-import com.therealm18.beyondplanetscore.configurations.venus.VenusGeneralCommon;
-import com.therealm18.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
-import com.therealm18.beyondplanetscore.registries.BlocksRegistry;
-import com.therealm18.beyondplanetscore.registries.ItemsRegistry;
+import com.therealm18studios.beyondplanetscore.configurations.ItemsCommon;
+import com.therealm18studios.beyondplanetscore.configurations.mars.MarsBlocksCommon;
+import com.therealm18studios.beyondplanetscore.configurations.mars.MarsGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.configurations.venus.VenusBlocksCommon;
+import com.therealm18studios.beyondplanetscore.configurations.venus.VenusGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.registries.BlocksRegistry;
+import com.therealm18studios.beyondplanetscore.registries.ItemsRegistry;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;

@@ -1,7 +1,7 @@
-package com.therealm18.beyondplanetscore.registries;
+package com.therealm18studios.beyondplanetscore.registries;
 
-import com.therealm18.beyondplanetscore.BeyondPlanetsCore;
-import com.therealm18.beyondplanetscore.itemgroups.ItemGroups;
+import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
+import com.therealm18studios.beyondplanetscore.itemgroups.ItemGroups;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;

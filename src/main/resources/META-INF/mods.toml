@@ -5,7 +5,7 @@ license="All rights reserved"
 [[mods]]
 modId="beyond_planets_core"
 version="${file.jarVersion}"
-displayName="Beyond Planets Core"
+displayName="Beyond Planets - Core"
 credits="TheRealM18"
 authors="TheRealM18"
 description='''

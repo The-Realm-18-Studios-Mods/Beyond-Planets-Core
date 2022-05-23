@@ -39,30 +39,35 @@ public class MarsOreGenerationCommon {
         MARSCOPPERHEIGHTTOP = BUILDER.comment("Should Mars Copper Ore Height Top.\nDefault = 32 (number)").define("Mars Copper Ore Height Top", 32);
         MARSCOPPERHEIGHTBOTTOM = BUILDER.comment("Should Mars Copper Ore Height Bottom.\nDefault = -32 (number)").define("Mars Copper Ore Height Bottom", -32);
         MARSCOPPERVEIN = BUILDER.comment("Should Mars Copper Ore Vein Size.\nDefault = 8 (number)").define("Mars Copper Ore Vein Size", 8);
+        BUILDER.pop();
 
         //Mars Lead Ores
         BUILDER.push("Beyond Planets Core - Mars Lead Ore Config");
         MARSLEADHEIGHTTOP = BUILDER.comment("Should Mars Lead Height Top.\nDefault = 56 (number)").define("Mars Lead Ore Height Top", 56);
         MARSLEADHEIGHTBOTTOM = BUILDER.comment("Should Mars Lead Height Bottom.\nDefault = -34 (number)").define("Mars Lead Ore Height Bottom", -24);
         MARSLEADVEIN = BUILDER.comment("Should Mars Lead Ore Vein Size.\nDefault = 8 (number)").define("Mars Copper Ore Vein Size", 10);
+        BUILDER.pop();
 
         //Mars Tin Ores
         BUILDER.push("Beyond Planets Core - Mars Tin Ore Config");
         MARSTINHEIGHTTOP = BUILDER.comment("Should Mars Tin Height Top.\nDefault = 80 (number)").define("Mars Tin Ore Height Top", 80);
         MARSTINHEIGHTBOTTOM = BUILDER.comment("Should Mars Tin Ore Height Bottom.\nDefault = -80 (number)").define("Mars Tin Ore Height Bottom", -80);
         MARSTINVEIN = BUILDER.comment("Should Mars Tin Ore Vein Size.\nDefault = 8 (number)").define("Mars Copper Ore Vein Size", 7);
+        BUILDER.pop();
 
         //Mars Uranium Ores
         BUILDER.push("Beyond Planets Core - Mars Uranium Ore Config");
         MARSURANIUMHEIGHTTOP = BUILDER.comment("Should Mars Uranium Height Top.\nDefault = 80 (number)").define("Mars Uranium Ore Height Top", 80);
         MARSURANIUMHEIGHTBOTTOM = BUILDER.comment("Should Mars Uranium Ore Height Bottom.\nDefault = -80 (number)").define("Mars Uranium Ore Height Bottom", -80);
         MARSURANIUMVEIN = BUILDER.comment("Should Mars Uranium Ore Vein Size.\nDefault = 8 (number)").define("Mars Copper Ore Vein Size", 6);
+        BUILDER.pop();
 
         //Mars Zinc Ores
         BUILDER.push("Beyond Planets Core - Mars Zinc Ore Config");
         MARSZINCHEIGHTTOP = BUILDER.comment("Should Mars Zinc Ore spawn.\nDefault = 80 (number)").define("Mars Zinc Ore Height Top", 80);
         MARSZINCHEIGHTBOTTOM = BUILDER.comment("Should Mars Zinc Ore Height Bottom.\nDefault = -80 (number)").define("Mars Zinc Ore Height Bottom", -80);
         MARSZINCVEIN = BUILDER.comment("Should Mars Zinc Ore Vein Size.\nDefault = 8 (number)").define("Mars Copper Ore Vein Size", 6);
+        BUILDER.pop();
 
         BUILDER.pop();
         SPEC = BUILDER.build();

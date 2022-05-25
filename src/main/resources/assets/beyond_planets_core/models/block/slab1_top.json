@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "beyond_planets_core:block/block1",
-    "top": "beyond_planets_core:block/block1",
-    "side": "beyond_planets_core:block/block1"
-  }
-}

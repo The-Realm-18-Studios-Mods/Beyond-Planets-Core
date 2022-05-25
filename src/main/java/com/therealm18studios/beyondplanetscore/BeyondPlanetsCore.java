@@ -1,10 +1,7 @@
 package com.therealm18studios.beyondplanetscore;
 
-import com.therealm18studios.beyondplanetscore.configurations.ItemsCommon;
-import com.therealm18studios.beyondplanetscore.configurations.mars.MarsBlocksCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
-import com.therealm18studios.beyondplanetscore.configurations.venus.VenusBlocksCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.registries.BlocksRegistry;
@@ -29,15 +26,10 @@ public class BeyondPlanetsCore
         //Mars
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MarsGeneralCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Mars//general-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MarsOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Mars//ore_configuration-common.toml");
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MarsBlocksCommon.SPEC, "BeyondPlanets//beyond_planets_core//Blocks//Decoration//mars_decoration-common.toml");
 
         //Venus
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, VenusGeneralCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Venus//general-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, VenusOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Venus//ore_configuration-common.toml");
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, VenusBlocksCommon.SPEC, "BeyondPlanets//beyond_planets_core//Blocks//Decoration//venus_decoration-common.toml");
-
-        //Items
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ItemsCommon.SPEC, "BeyondPlanets//beyond_planets_core//Items//ores-common.toml");
 
         //Registries
         ItemsRegistry.ITEMS.register(bus);

@@ -3,9 +3,9 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "beyond_planets_core:venus_zinc_ore"
+    "item": "beyond_planets_core:venus_uranium_ore"
   },
   "result": {
-    "item": "beyond_planets_core:ingot_zinc"
+    "item": "beyond_planets_core:ingot_uranium"
   }
 }

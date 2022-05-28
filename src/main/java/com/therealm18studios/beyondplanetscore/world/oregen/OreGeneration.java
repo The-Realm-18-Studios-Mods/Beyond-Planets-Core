@@ -234,7 +234,7 @@ public class OreGeneration {
             }
         }
 
-        if (biome.equals(BiomesRegistry.GLACIO) || (BiomesRegistry.GLACIO_ICE_SPIKES)) {
+        if (biome.equals(BiomesRegistry.GLACIO) || biome.equals(BiomesRegistry.GLACIO_ICE_SPIKES)) {
             if (GalcioGeneralCommon.GALCIOLEAD.get()) {
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GALCIO_LEAD_ORE.getHolder().get());
             }

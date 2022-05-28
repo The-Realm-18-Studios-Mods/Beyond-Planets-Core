@@ -2,6 +2,8 @@ package com.therealm18studios.beyondplanetscore;
 
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.configurations.moon.MoonGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.moon.MoonOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.registries.BlocksRegistry;
@@ -30,6 +32,11 @@ public class BeyondPlanetsCore
         //Venus
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, VenusGeneralCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Venus//general-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, VenusOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Venus//ore_configuration-common.toml");
+
+
+        //Moon
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MoonGeneralCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Moon//general-common.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MoonOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Moon//ore_configuration-common.toml");
 
         //Registries
         ItemsRegistry.ITEMS.register(bus);

@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "beyond_planets_core:mars_lead_ore"
+    "beyond_planets_core:mars_lead_ore",
+    "beyond_planets_core:moon_lead_ore",
+    "beyond_planets_core:mercury_lead_ore",
+    "beyond_planets_core:venus_lead_ore",
+    "beyond_planets_core:galcio_lead_ore"
   ]
 }

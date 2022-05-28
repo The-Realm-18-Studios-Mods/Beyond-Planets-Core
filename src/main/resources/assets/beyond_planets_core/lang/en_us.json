@@ -21,6 +21,14 @@
   "block.beyond_planets_core.moon_lead_ore": "Moon Lead Ore",
 
 
+
+  "block.beyond_planets_core.mercury_copper_ore": "Mercury Copper Ore",
+  "block.beyond_planets_core.mercury_tin_ore": "Mercury Tin Ore",
+  "block.beyond_planets_core.mercury_zinc_ore": "Mercury Zinc Ore",
+  "block.beyond_planets_core.mercury_uranium_ore": "Mercury Uranium Ore",
+  "block.beyond_planets_core.mercury_lead_ore": "Mercury Lead Ore",
+
+
   "item.beyond_planets_core.raw_ore_tin": " Raw Tin Ore",
   "item.beyond_planets_core.raw_ore_zinc": "Raw Zinc Ore",
   "item.beyond_planets_core.raw_ore_uranium": "Raw Uranium Ore",

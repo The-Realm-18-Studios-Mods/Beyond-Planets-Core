@@ -4,6 +4,8 @@ import com.therealm18studios.beyondplanetscore.configurations.mars.MarsGeneralCo
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.moon.MoonGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.moon.MoonOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.registries.BlocksRegistry;

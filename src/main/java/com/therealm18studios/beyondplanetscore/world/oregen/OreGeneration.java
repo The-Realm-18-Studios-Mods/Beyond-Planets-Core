@@ -5,6 +5,8 @@ import com.therealm18studios.beyondplanetscore.configurations.mars.MarsGeneralCo
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.moon.MoonGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.moon.MoonOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.registries.BlocksRegistry;
@@ -104,6 +106,33 @@ public class OreGeneration {
     public static final RegistryObject<ConfiguredFeature<?,?>> MOON_ZINC_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("moon_zinc_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MOON_MATCH, BlocksRegistry.MOON_ZINC_ORE.get().defaultBlockState(), 8)));
     public static final RegistryObject<PlacedFeature> MOON_ZINC_ORE = FeatureRegistry.PLACED_FEATURES.register("moon_zinc_ore", () -> new PlacedFeature(MOON_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MoonOreGenerationCommon.MOONZINCVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONZINCHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONZINCHEIGHTTOP.get())))));
 
+
+
+
+
+    /** MERCURY ORES: */
+    public static final RuleTest MERCURY_MATCH = new TagMatchTest(net.mrscauthd.beyond_earth.world.oregen.OreGeneration.MERCURY_ORE_REPLACEABLES);
+
+    // MERCURY_COPPER_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_COPPER_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mercury_copper_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_COPPER_ORE.get().defaultBlockState(), 10)));
+    public static final RegistryObject<PlacedFeature> MERCURY_COPPER_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_copper_ore", () -> new PlacedFeature(MERCURY_COPPER_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYCOPPERVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOPPERHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOPPERHEIGHTTOP.get())))));
+
+    // MERCURY_LEAD_ORE_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_LEAD_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mercury_lead_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_LEAD_ORE.get().defaultBlockState(), 11)));
+    public static final RegistryObject<PlacedFeature> MERCURY_LEAD_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_lead_ore", () -> new PlacedFeature(MERCURY_LEAD_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYLEADVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.absolute(MercuryOreGenerationCommon.MERCURYLEADHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYLEADHEIGHTTOP.get())))));
+
+    // MERCURY_TIN_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_TIN_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mercury_tin_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_TIN_ORE.get().defaultBlockState(), 7)));
+    public static final RegistryObject<PlacedFeature> MERCURY_TIN_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_tin_ore", () -> new PlacedFeature(MERCURY_TIN_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYTINVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYTINHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYTINHEIGHTTOP.get())))));
+
+    // MERCURY_URANIUM_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_URANIUM_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mercury_uranium_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_URANIUM_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> MERCURY_URANIUM_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_uranium_ore", () -> new PlacedFeature(MERCURY_URANIUM_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYURANIUMVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYURANIUMHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYURANIUMHEIGHTTOP.get())))));
+
+    // MERCURY_ZINC_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_ZINC_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mercury_zinc_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_ZINC_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> MERCURY_ZINC_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_zinc_ore", () -> new PlacedFeature(MERCURY_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYZINCVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYZINCHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYZINCHEIGHTTOP.get())))));
+
     @SubscribeEvent
     public static void biomesLoading(BiomeLoadingEvent event) {
         ResourceLocation biome = event.getName();
@@ -159,6 +188,24 @@ public class OreGeneration {
             }
             if (MoonGeneralCommon.MOONZINC.get()) {
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(MOON_ZINC_ORE.getHolder().get());
+            }
+        }
+
+        if (biome.equals(BiomesRegistry.MERCURY)) {
+            if (MercuryGeneralCommon.MERCURYCOPPER.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(MERCURY_COPPER_ORE.getHolder().get());
+            }
+            if (MercuryGeneralCommon.MERCURYLEAD.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(MERCURY_LEAD_ORE.getHolder().get());
+            }
+            if (MercuryGeneralCommon.MERCURYTIN.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(MERCURY_TIN_ORE.getHolder().get());
+            }
+            if (MercuryGeneralCommon.MERCURYURANIUM.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(MERCURY_URANIUM_ORE.getHolder().get());
+            }
+            if (MercuryGeneralCommon.MERCURYZINC.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(MERCURY_ZINC_ORE.getHolder().get());
             }
         }
     }

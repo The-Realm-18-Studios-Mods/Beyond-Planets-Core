@@ -29,6 +29,13 @@
   "block.beyond_planets_core.mercury_lead_ore": "Mercury Lead Ore",
 
 
+
+  "block.beyond_planets_core.galcio_tin_ore": "Galcio Tin Ore",
+  "block.beyond_planets_core.galcio_zinc_ore": "Galcio Zinc Ore",
+  "block.beyond_planets_core.galcio_uranium_ore": "Galcio Uranium Ore",
+  "block.beyond_planets_core.galcio_lead_ore": "Galcio Lead Ore",
+
+
   "item.beyond_planets_core.raw_ore_tin": " Raw Tin Ore",
   "item.beyond_planets_core.raw_ore_zinc": "Raw Zinc Ore",
   "item.beyond_planets_core.raw_ore_uranium": "Raw Uranium Ore",
@@ -42,6 +49,5 @@
 
 
   "itemGroup.beyond_planets_core.tab_ores": "BPC Ore",
-  "itemGroup.beyond_planets_core.tab_items": "BPC Items",
-  "itemGroup.beyond_planets_core.tab_building_blocks": "BPC Building Blocks"
+  "itemGroup.beyond_planets_core.tab_items": "BPC Items"
 }

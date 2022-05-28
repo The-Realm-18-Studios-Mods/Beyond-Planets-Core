@@ -1,8 +1,8 @@
 package com.therealm18studios.beyondplanetscore.world.oregen;
 
 import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
-import com.therealm18studios.beyondplanetscore.configurations.galcio.GalcioGeneralCommon;
-import com.therealm18studios.beyondplanetscore.configurations.galcio.GalcioOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.configurations.glacio.GlacioGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.glacio.GlacioOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryGeneralCommon;
@@ -139,24 +139,24 @@ public class OreGeneration {
 
 
 
-    /** GALCIO ORES: */
-    public static final RuleTest GALCIO_MATCH = new TagMatchTest(net.mrscauthd.beyond_earth.world.oregen.OreGeneration.GLACIO_ORE_REPLACEABLES);
+    /** GLACIO ORES: */
+    public static final RuleTest GLACIO_MATCH = new TagMatchTest(net.mrscauthd.beyond_earth.world.oregen.OreGeneration.GLACIO_ORE_REPLACEABLES);
 
-    // GALCIO_LEAD_ORE_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> GALCIO_LEAD_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("galcio_lead_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GALCIO_MATCH, BlocksRegistry.GALCIO_LEAD_ORE.get().defaultBlockState(), 11)));
-    public static final RegistryObject<PlacedFeature> GALCIO_LEAD_ORE = FeatureRegistry.PLACED_FEATURES.register("galcio_lead_ore", () -> new PlacedFeature(GALCIO_LEAD_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GalcioOreGenerationCommon.GALCIOLEADVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.absolute(GalcioOreGenerationCommon.GALCIOLEADHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GalcioOreGenerationCommon.GALCIOLEADHEIGHTTOP.get())))));
+    // GLACIO_LEAD_ORE_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> GLACIO_LEAD_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("glacio_lead_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GLACIO_MATCH, BlocksRegistry.GLACIO_LEAD_ORE.get().defaultBlockState(), 11)));
+    public static final RegistryObject<PlacedFeature> GLACIO_LEAD_ORE = FeatureRegistry.PLACED_FEATURES.register("glacio_lead_ore", () -> new PlacedFeature(GLACIO_LEAD_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GlacioOreGenerationCommon.GLACIOLEADVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.absolute(GlacioOreGenerationCommon.GLACIOLEADHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOLEADHEIGHTTOP.get())))));
 
-    // GALCIO_TIN_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> GALCIO_TIN_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("galcio_tin_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GALCIO_MATCH, BlocksRegistry.GALCIO_TIN_ORE.get().defaultBlockState(), 7)));
-    public static final RegistryObject<PlacedFeature> GALCIO_TIN_ORE = FeatureRegistry.PLACED_FEATURES.register("galcio_tin_ore", () -> new PlacedFeature(GALCIO_TIN_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GalcioOreGenerationCommon.GALCIOTINVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(GalcioOreGenerationCommon.GALCIOTINHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GalcioOreGenerationCommon.GALCIOTINHEIGHTTOP.get())))));
+    // GLACIO_TIN_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> GLACIO_TIN_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("glacio_tin_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GLACIO_MATCH, BlocksRegistry.GLACIO_TIN_ORE.get().defaultBlockState(), 7)));
+    public static final RegistryObject<PlacedFeature> GLACIO_TIN_ORE = FeatureRegistry.PLACED_FEATURES.register("glacio_tin_ore", () -> new PlacedFeature(GLACIO_TIN_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GlacioOreGenerationCommon.GLACIOTINVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOTINHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOTINHEIGHTTOP.get())))));
 
-    // GALCIO_URANIUM_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> GALCIO_URANIUM_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("galcio_uranium_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GALCIO_MATCH, BlocksRegistry.GALCIO_URANIUM_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> GALCIO_URANIUM_ORE = FeatureRegistry.PLACED_FEATURES.register("galcio_uranium_ore", () -> new PlacedFeature(GALCIO_URANIUM_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GalcioOreGenerationCommon.GALCIOURANIUMVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(GalcioOreGenerationCommon.GALCIOURANIUMHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GalcioOreGenerationCommon.GALCIOURANIUMHEIGHTTOP.get())))));
+    // GLACIO_URANIUM_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> GLACIO_URANIUM_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("glacio_uranium_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GLACIO_MATCH, BlocksRegistry.GLACIO_URANIUM_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> GLACIO_URANIUM_ORE = FeatureRegistry.PLACED_FEATURES.register("glacio_uranium_ore", () -> new PlacedFeature(GLACIO_URANIUM_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GlacioOreGenerationCommon.GLACIOURANIUMVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOURANIUMHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOURANIUMHEIGHTTOP.get())))));
 
-    // GALCIO_ZINC_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> GALCIO_ZINC_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("galcio_zinc_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GALCIO_MATCH, BlocksRegistry.GALCIO_ZINC_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> GALCIO_ZINC_ORE = FeatureRegistry.PLACED_FEATURES.register("galcio_zinc_ore", () -> new PlacedFeature(GALCIO_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GalcioOreGenerationCommon.GALCIOZINCVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(GalcioOreGenerationCommon.GALCIOZINCHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GalcioOreGenerationCommon.GALCIOZINCHEIGHTTOP.get())))));
+    // GLACIO_ZINC_ORE
+    public static final RegistryObject<ConfiguredFeature<?,?>> GLACIO_ZINC_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("glacio_zinc_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GLACIO_MATCH, BlocksRegistry.GLACIO_ZINC_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> GLACIO_ZINC_ORE = FeatureRegistry.PLACED_FEATURES.register("glacio_zinc_ore", () -> new PlacedFeature(GLACIO_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GlacioOreGenerationCommon.GLACIOZINCVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOZINCHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOZINCHEIGHTTOP.get())))));
 
     @SubscribeEvent
     public static void biomesLoading(BiomeLoadingEvent event) {
@@ -235,17 +235,17 @@ public class OreGeneration {
         }
 
         if (biome.equals(BiomesRegistry.GLACIO) || biome.equals(BiomesRegistry.GLACIO_ICE_SPIKES)) {
-            if (GalcioGeneralCommon.GALCIOLEAD.get()) {
-                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GALCIO_LEAD_ORE.getHolder().get());
+            if (GlacioGeneralCommon.GLACIOLEAD.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GLACIO_LEAD_ORE.getHolder().get());
             }
-            if (GalcioGeneralCommon.GALCIOTIN.get()) {
-                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GALCIO_TIN_ORE.getHolder().get());
+            if (GlacioGeneralCommon.GLACIOTIN.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GLACIO_TIN_ORE.getHolder().get());
             }
-            if (GalcioGeneralCommon.GALCIOURANIUM.get()) {
-                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GALCIO_URANIUM_ORE.getHolder().get());
+            if (GlacioGeneralCommon.GLACIOURANIUM.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GLACIO_URANIUM_ORE.getHolder().get());
             }
-            if (GalcioGeneralCommon.GALCIOZINC.get()) {
-                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GALCIO_ZINC_ORE.getHolder().get());
+            if (GlacioGeneralCommon.GLACIOZINC.get()) {
+                event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES).add(GLACIO_ZINC_ORE.getHolder().get());
             }
         }
     }

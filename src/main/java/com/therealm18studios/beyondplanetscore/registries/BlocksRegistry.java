@@ -48,9 +48,9 @@ public class BlocksRegistry {
     public static RegistryObject<Block> MERCURY_URANIUM_ORE = BLOCKS.register("mercury_uranium_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> MERCURY_ZINC_ORE = BLOCKS.register("mercury_zinc_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
 
-    //Galcio Ores
-    public static RegistryObject<Block> GALCIO_LEAD_ORE = BLOCKS.register("galcio_lead_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> GALCIO_TIN_ORE = BLOCKS.register("galcio_tin_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> GALCIO_URANIUM_ORE = BLOCKS.register("galcio_uranium_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> GALCIO_ZINC_ORE = BLOCKS.register("galcio_zinc_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    //Glacio Ores
+    public static RegistryObject<Block> GLACIO_LEAD_ORE = BLOCKS.register("glacio_lead_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> GLACIO_TIN_ORE = BLOCKS.register("glacio_tin_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> GLACIO_URANIUM_ORE = BLOCKS.register("glacio_uranium_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> GLACIO_ZINC_ORE = BLOCKS.register("glacio_zinc_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
 }

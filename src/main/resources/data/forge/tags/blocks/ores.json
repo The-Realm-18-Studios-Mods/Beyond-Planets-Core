@@ -25,10 +25,9 @@
     "beyond_planets_core:mercury_uranium_ore",
     "beyond_planets_core:mercury_zinc_ore",
     
-	"beyond_planets_core:galcio_copper_ore",
-    "beyond_planets_core:galcio_lead_ore",
-    "beyond_planets_core:galcio_tin_ore",
-    "beyond_planets_core:galcio_uranium_ore",
-    "beyond_planets_core:galcio_zinc_ore"
+    "beyond_planets_core:glacio_lead_ore",
+    "beyond_planets_core:glacio_tin_ore",
+    "beyond_planets_core:glacio_uranium_ore",
+    "beyond_planets_core:glacio_zinc_ore"
   ]
 }

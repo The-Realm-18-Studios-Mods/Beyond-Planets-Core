@@ -59,10 +59,10 @@ public class ItemsRegistry {
     public static final RegistryObject<BlockItem> MERCURY_URANIUM_ORE_ITEM = ITEMS.register("mercury_uranium_ore", () -> new BlockItem(BlocksRegistry.MERCURY_URANIUM_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
     public static final RegistryObject<BlockItem> MERCURY_ZINC_ORE_ITEM = ITEMS.register("mercury_zinc_ore", () -> new BlockItem(BlocksRegistry.MERCURY_ZINC_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
 
-    //Galcio Ores
-    public static final RegistryObject<BlockItem> GALCIO_LEAD_ORE_ITEM = ITEMS.register("galcio_lead_ore", () -> new BlockItem(BlocksRegistry.GALCIO_LEAD_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
-    public static final RegistryObject<BlockItem> GALCIO_TIN_ORE_ITEM = ITEMS.register("galcio_tin_ore", () -> new BlockItem(BlocksRegistry.GALCIO_TIN_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
-    public static final RegistryObject<BlockItem> GALCIO_URANIUM_ORE_ITEM = ITEMS.register("galcio_uranium_ore", () -> new BlockItem(BlocksRegistry.GALCIO_URANIUM_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
-    public static final RegistryObject<BlockItem> GALCIO_ZINC_ORE_ITEM = ITEMS.register("galcio_zinc_ore", () -> new BlockItem(BlocksRegistry.GALCIO_ZINC_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
+    //Glacio Ores
+    public static final RegistryObject<BlockItem> GLACIO_LEAD_ORE_ITEM = ITEMS.register("glacio_lead_ore", () -> new BlockItem(BlocksRegistry.GLACIO_LEAD_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
+    public static final RegistryObject<BlockItem> GLACIO_TIN_ORE_ITEM = ITEMS.register("glacio_tin_ore", () -> new BlockItem(BlocksRegistry.GLACIO_TIN_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
+    public static final RegistryObject<BlockItem> GLACIO_URANIUM_ORE_ITEM = ITEMS.register("glacio_uranium_ore", () -> new BlockItem(BlocksRegistry.GLACIO_URANIUM_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
+    public static final RegistryObject<BlockItem> GLACIO_ZINC_ORE_ITEM = ITEMS.register("glacio_zinc_ore", () -> new BlockItem(BlocksRegistry.GLACIO_ZINC_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
 
 }

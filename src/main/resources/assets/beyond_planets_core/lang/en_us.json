@@ -30,10 +30,10 @@
 
 
 
-  "block.beyond_planets_core.galcio_tin_ore": "Galcio Tin Ore",
-  "block.beyond_planets_core.galcio_zinc_ore": "Galcio Zinc Ore",
-  "block.beyond_planets_core.galcio_uranium_ore": "Galcio Uranium Ore",
-  "block.beyond_planets_core.galcio_lead_ore": "Galcio Lead Ore",
+  "block.beyond_planets_core.glacio_tin_ore": "Glacio Tin Ore",
+  "block.beyond_planets_core.glacio_zinc_ore": "Glacio Zinc Ore",
+  "block.beyond_planets_core.glacio_uranium_ore": "Glacio Uranium Ore",
+  "block.beyond_planets_core.glacio_lead_ore": "Glacio Lead Ore",
 
 
   "item.beyond_planets_core.raw_ore_tin": " Raw Tin Ore",

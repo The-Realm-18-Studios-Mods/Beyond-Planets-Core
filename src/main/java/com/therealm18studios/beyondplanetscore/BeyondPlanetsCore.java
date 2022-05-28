@@ -40,12 +40,12 @@ public class BeyondPlanetsCore
 
         //Moon
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MoonGeneralCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Moon//general-common.toml");
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MoonOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Moon//ore_configuration-common.toml"););
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MoonOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Moon//ore_configuration-common.toml");
 
 
         //Moon
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MercuryGeneralCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Mercury//general-common.toml");
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MercuryOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Mercury//ore_configuration-common.toml"););
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MercuryOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Mercury//ore_configuration-common.toml");
 
 
         //Galcio

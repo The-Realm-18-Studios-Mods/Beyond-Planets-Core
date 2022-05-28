@@ -11,6 +11,23 @@
     "beyond_planets_core:venus_lead_ore",
     "beyond_planets_core:venus_uranium_ore",
     "beyond_planets_core:venus_tin_ore",
-    "beyond_planets_core:venus_zinc_ore"
+    "beyond_planets_core:venus_zinc_ore",
+	
+    "beyond_planets_core:moon_copper_ore",
+    "beyond_planets_core:moon_lead_ore",
+    "beyond_planets_core:moon_uranium_ore",
+    "beyond_planets_core:moon_tin_ore",
+    "beyond_planets_core:moon_zinc_ore",
+	
+    "beyond_planets_core:mercury_copper_ore",
+    "beyond_planets_core:mercury_lead_ore",
+    "beyond_planets_core:mercury_uranium_ore",
+    "beyond_planets_core:mercury_tin_ore",
+    "beyond_planets_core:mercury_zinc_ore",
+	
+    "beyond_planets_core:galcio_lead_ore",
+    "beyond_planets_core:galcio_uranium_ore",
+    "beyond_planets_core:galcio_tin_ore",
+    "beyond_planets_core:galcio_zinc_ore"
   ]
 }

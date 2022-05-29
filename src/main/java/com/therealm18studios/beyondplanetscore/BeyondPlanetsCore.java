@@ -1,7 +1,7 @@
 package com.therealm18studios.beyondplanetscore;
 
-import com.therealm18studios.beyondplanetscore.configurations.galcio.GalcioGeneralCommon;
-import com.therealm18studios.beyondplanetscore.configurations.galcio.GalcioOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.configurations.glacio.GlacioGeneralCommon;
+import com.therealm18studios.beyondplanetscore.configurations.glacio.GlacioOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsGeneralCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryGeneralCommon;
@@ -48,9 +48,9 @@ public class BeyondPlanetsCore
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MercuryOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Mercury//ore_configuration-common.toml");
 
 
-        //Galcio
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GalcioGeneralCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Galcio//general-common.toml");
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GalcioOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Galcio//ore_configuration-common.toml");
+        //Glacio
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GlacioGeneralCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Glacio//general-common.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GlacioOreGenerationCommon.SPEC, "BeyondPlanets//beyond_planets_core//Ores//Glacio//ore_configuration-common.toml");
 
         //Registries
         ItemsRegistry.ITEMS.register(bus);

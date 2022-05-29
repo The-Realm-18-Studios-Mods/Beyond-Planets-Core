@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "beyond_planets_core:blocks/galcio/galcio_tin_ore"
+    "all": "beyond_planets_core:blocks/glacio/glacio_tin_ore"
   }
 }

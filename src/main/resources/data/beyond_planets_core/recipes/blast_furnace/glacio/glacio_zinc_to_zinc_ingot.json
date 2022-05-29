@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:smelting",
+  "type": "minecraft:blasting",
   "experience": 1,
-  "cookingtime": 200,
+  "cookingtime": 100,
   "ingredient": {
-    "item": "beyond_planets_core:galcio_zinc_ore"
+    "item": "beyond_planets_core:glacio_zinc_ore"
   },
   "result": {
     "item": "beyond_planets_core:ingot_zinc"

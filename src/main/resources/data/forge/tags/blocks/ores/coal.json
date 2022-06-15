@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "beyond_planets_core:mars_coal_ore",
+    "beyond_planets_core:mercury_coal_ore",
+    "beyond_planets_core:moon_coal_ore"
+  ]
+}

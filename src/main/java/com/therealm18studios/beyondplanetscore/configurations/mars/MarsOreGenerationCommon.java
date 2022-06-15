@@ -14,6 +14,7 @@ public class MarsOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSURANIUMHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSZINCHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOBALTHEIGHTTOP;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOALHEIGHTTOP;
 
     //Bottom Level
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOPPERHEIGHTBOTTOM;
@@ -22,6 +23,7 @@ public class MarsOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSURANIUMHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSZINCHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOBALTHEIGHTBOTTOM;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOALHEIGHTBOTTOM;
 
     //Vein Size
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOPPERVEIN;
@@ -30,6 +32,7 @@ public class MarsOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSURANIUMVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSZINCVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOBALTVEIN;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOALVEIN;
 
 
 
@@ -77,6 +80,13 @@ public class MarsOreGenerationCommon {
         MARSCOBALTHEIGHTTOP = BUILDER.comment("Should Mars Cobalt Ore spawn.\nDefault = 80 (number)").define("Mars Cobalt Ore Height Top", 80);
         MARSCOBALTHEIGHTBOTTOM = BUILDER.comment("Should Mars Cobalt Ore Height Bottom.\nDefault = -80 (number)").define("Mars Cobalt Ore Height Bottom", -80);
         MARSCOBALTVEIN = BUILDER.comment("Should Mars Cobalt Ore Vein Size.\nDefault = 8 (number)").define("Mars Cobalt Ore Vein Size", 6);
+        BUILDER.pop();
+
+        //Mars Coal Ores
+        BUILDER.push("Beyond Planets Core - Mars Coal Ore Config");
+        MARSCOALHEIGHTTOP = BUILDER.comment("Should Mars Coal Ore spawn.\nDefault = 80 (number)").define("Mars Coal Ore Height Top", 80);
+        MARSCOALHEIGHTBOTTOM = BUILDER.comment("Should Mars Coal Ore Height Bottom.\nDefault = -80 (number)").define("Mars Coal Ore Height Bottom", -80);
+        MARSCOALVEIN = BUILDER.comment("Should Mars Coal Ore Vein Size.\nDefault = 8 (number)").define("Mars Coal Ore Vein Size", 6);
         BUILDER.pop();
 
         BUILDER.pop();

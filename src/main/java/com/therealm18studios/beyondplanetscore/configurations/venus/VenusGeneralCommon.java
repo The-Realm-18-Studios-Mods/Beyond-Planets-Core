@@ -12,6 +12,7 @@ public class VenusGeneralCommon {
     public static final ForgeConfigSpec.ConfigValue<Boolean> VENUSLEAD;
     public static final ForgeConfigSpec.ConfigValue<Boolean> VENUSZINC;
     public static final ForgeConfigSpec.ConfigValue<Boolean> VENUSURANIUM;
+    public static final ForgeConfigSpec.ConfigValue<Boolean> VENUSCOBALT;
 
 
 
@@ -25,6 +26,7 @@ public class VenusGeneralCommon {
         VENUSTIN = BUILDER.comment("Should Venus Tin Ore spawn.\nDefault = true (true/false)").define("Venus Tin Ore", true);
         VENUSURANIUM = BUILDER.comment("Should Venus Uranium Ore spawn.\nDefault = true (true/false)").define("Venus Uranium Ore", true);
         VENUSZINC = BUILDER.comment("Should Venus Zinc Ore spawn.\nDefault = true (true/false)").define("Venus Zinc Ore", true);
+        VENUSCOBALT = BUILDER.comment("Should Venus Cobalt Ore spawn.\nDefault = true (true/false)").define("Venus Cobalt Ore", true);
 
         BUILDER.pop();
         SPEC = BUILDER.build();

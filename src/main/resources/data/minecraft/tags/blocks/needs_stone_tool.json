@@ -3,6 +3,7 @@
   "values": [
     "beyond_planets_core:mars_copper_ore",
     "beyond_planets_core:mars_tin_ore",
+    "beyond_planets_core:mars_coal_ore",
     "beyond_planets_core:mars_zinc_ore",
 	
     "beyond_planets_core:venus_copper_ore",
@@ -11,10 +12,12 @@
 	
     "beyond_planets_core:moon_copper_ore",
     "beyond_planets_core:moon_tin_ore",
+    "beyond_planets_core:moon_coal_ore",
     "beyond_planets_core:moon_zinc_ore",
 	
     "beyond_planets_core:mercury_copper_ore",
     "beyond_planets_core:mercury_tin_ore",
+    "beyond_planets_core:mercury_coal_ore",
     "beyond_planets_core:mercury_zinc_ore",
 	
     "beyond_planets_core:glacio_tin_ore",

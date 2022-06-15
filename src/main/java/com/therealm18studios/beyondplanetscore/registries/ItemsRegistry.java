@@ -30,8 +30,8 @@ public class ItemsRegistry {
     public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("ingot_lead", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("ingot_tin", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
     public static final RegistryObject<Item> URANIUM_INGOT = ITEMS.register("ingot_uranium", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
-    public static final RegistryObject<Item> ZINC_INOGT = ITEMS.register("ingot_zinc", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
-    public static final RegistryObject<Item> COBALT_INOGT = ITEMS.register("ingot_cobalt", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
+    public static final RegistryObject<Item> ZINC_INGOT = ITEMS.register("ingot_zinc", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
+    public static final RegistryObject<Item> COBALT_INGOT = ITEMS.register("ingot_cobalt", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
 
     //Mars Ores
     public static final RegistryObject<BlockItem> MARS_COPPER_ORE_ITEM = ITEMS.register("mars_copper_ore", () -> new BlockItem(BlocksRegistry.MARS_COPPER_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
@@ -40,6 +40,7 @@ public class ItemsRegistry {
     public static final RegistryObject<BlockItem> MARS_URANIUM_ORE_ITEM = ITEMS.register("mars_uranium_ore", () -> new BlockItem(BlocksRegistry.MARS_URANIUM_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
     public static final RegistryObject<BlockItem> MARS_ZINC_ORE_ITEM = ITEMS.register("mars_zinc_ore", () -> new BlockItem(BlocksRegistry.MARS_ZINC_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
     public static final RegistryObject<BlockItem> MARS_COBALT_ORE_ITEM = ITEMS.register("mars_cobalt_ore", () -> new BlockItem(BlocksRegistry.MARS_COBALT_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
+    public static final RegistryObject<BlockItem> MARS_COAL_ORE_ITEM = ITEMS.register("mars_coal_ore", () -> new BlockItem(BlocksRegistry.MARS_COAL_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
 
     //Venus Ores
     public static final RegistryObject<BlockItem> VENUS_COPPER_ORE_ITEM = ITEMS.register("venus_copper_ore", () -> new BlockItem(BlocksRegistry.VENUS_COPPER_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
@@ -56,6 +57,7 @@ public class ItemsRegistry {
     public static final RegistryObject<BlockItem> MOON_URANIUM_ORE_ITEM = ITEMS.register("moon_uranium_ore", () -> new BlockItem(BlocksRegistry.MOON_URANIUM_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
     public static final RegistryObject<BlockItem> MOON_ZINC_ORE_ITEM = ITEMS.register("moon_zinc_ore", () -> new BlockItem(BlocksRegistry.MOON_ZINC_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
     public static final RegistryObject<BlockItem> MOON_COBALT_ORE_ITEM = ITEMS.register("moon_cobalt_ore", () -> new BlockItem(BlocksRegistry.MOON_COBALT_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
+    public static final RegistryObject<BlockItem> MOON_COAL_ORE_ITEM = ITEMS.register("moon_coal_ore", () -> new BlockItem(BlocksRegistry.MOON_COAL_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
 
     //Mercury Ores
     public static final RegistryObject<BlockItem> MERCURY_COPPER_ORE_ITEM = ITEMS.register("mercury_copper_ore", () -> new BlockItem(BlocksRegistry.MERCURY_COPPER_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
@@ -64,6 +66,7 @@ public class ItemsRegistry {
     public static final RegistryObject<BlockItem> MERCURY_URANIUM_ORE_ITEM = ITEMS.register("mercury_uranium_ore", () -> new BlockItem(BlocksRegistry.MERCURY_URANIUM_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
     public static final RegistryObject<BlockItem> MERCURY_ZINC_ORE_ITEM = ITEMS.register("mercury_zinc_ore", () -> new BlockItem(BlocksRegistry.MERCURY_ZINC_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
     public static final RegistryObject<BlockItem> MERCURY_COBALT_ORE_ITEM = ITEMS.register("mercury_cobalt_ore", () -> new BlockItem(BlocksRegistry.MERCURY_COBALT_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
+    public static final RegistryObject<BlockItem> MERCURY_COAL_ORE_ITEM = ITEMS.register("mercury_coal_ore", () -> new BlockItem(BlocksRegistry.MERCURY_COAL_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));
 
     //Glacio Ores
     public static final RegistryObject<BlockItem> GLACIO_LEAD_ORE_ITEM = ITEMS.register("glacio_lead_ore", () -> new BlockItem(BlocksRegistry.GLACIO_LEAD_ORE.get(), new Item.Properties().tab(ItemGroups.TAB_ORES)));

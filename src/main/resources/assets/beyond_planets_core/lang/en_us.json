@@ -4,6 +4,8 @@
   "block.beyond_planets_core.mars_zinc_ore": "Mars Zinc Ore",
   "block.beyond_planets_core.mars_uranium_ore": "Mars Uranium Ore",
   "block.beyond_planets_core.mars_lead_ore": "Mars Lead Ore",
+  "block.beyond_planets_core.mars_cobalt_ore": "Mars Cobalt Ore",
+  "block.beyond_planets_core.mars_coal_ore": "Mars Coal Ore",
 
 
   "block.beyond_planets_core.venus_copper_ore": "Venus Copper Ore",
@@ -11,6 +13,7 @@
   "block.beyond_planets_core.venus_zinc_ore": "Venus Zinc Ore",
   "block.beyond_planets_core.venus_uranium_ore": "Venus Uranium Ore",
   "block.beyond_planets_core.venus_lead_ore": "Venus Lead Ore",
+  "block.beyond_planets_core.venus_cobalt_ore": "Venus Cobalt Ore",
 
 
 
@@ -19,6 +22,8 @@
   "block.beyond_planets_core.moon_zinc_ore": "Moon Zinc Ore",
   "block.beyond_planets_core.moon_uranium_ore": "Moon Uranium Ore",
   "block.beyond_planets_core.moon_lead_ore": "Moon Lead Ore",
+  "block.beyond_planets_core.moon_cobalt_ore": "Moon Cobalt Ore",
+  "block.beyond_planets_core.moon_coal_ore": "Moon Coal Ore",
 
 
 
@@ -27,6 +32,8 @@
   "block.beyond_planets_core.mercury_zinc_ore": "Mercury Zinc Ore",
   "block.beyond_planets_core.mercury_uranium_ore": "Mercury Uranium Ore",
   "block.beyond_planets_core.mercury_lead_ore": "Mercury Lead Ore",
+  "block.beyond_planets_core.mercury_cobalt_ore": "Mercury Cobalt Ore",
+  "block.beyond_planets_core.mercury_coal_ore": "Mercury Coal Ore",
 
 
 
@@ -34,19 +41,21 @@
   "block.beyond_planets_core.glacio_zinc_ore": "Glacio Zinc Ore",
   "block.beyond_planets_core.glacio_uranium_ore": "Glacio Uranium Ore",
   "block.beyond_planets_core.glacio_lead_ore": "Glacio Lead Ore",
+  "block.beyond_planets_core.glacio_cobalt_ore": "Glacio Cobalt Ore",
 
 
   "item.beyond_planets_core.raw_ore_tin": " Raw Tin Ore",
   "item.beyond_planets_core.raw_ore_zinc": "Raw Zinc Ore",
   "item.beyond_planets_core.raw_ore_uranium": "Raw Uranium Ore",
   "item.beyond_planets_core.raw_ore_lead": "Raw Lead Ore",
+  "block.beyond_planets_core.raw_ore_cobalt": "Raw Cobalt Ore",
 
 
   "item.beyond_planets_core.ingot_tin": "Tin Ingot",
   "item.beyond_planets_core.ingot_zinc": "Zinc Ingot",
   "item.beyond_planets_core.ingot_uranium": "Uranium Ingot",
   "item.beyond_planets_core.ingot_lead": "Lead Ingot",
-
+  "item.beyond_planets_core.ingot_cobalt": "Cobalt Ingot",
 
   "itemGroup.beyond_planets_core.tab_ores": "BPC Ore",
   "itemGroup.beyond_planets_core.tab_items": "BPC Items"

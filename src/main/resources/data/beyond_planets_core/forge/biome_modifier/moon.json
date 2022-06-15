@@ -6,7 +6,8 @@
     "beyond_planets_core:moon_lead_ore",
     "beyond_planets_core:moon_tin_ore",
     "beyond_planets_core:moon_uranium_ore",
-    "beyond_planets_core:moon_zinc_ore"
+    "beyond_planets_core:moon_zinc_ore",
+    "beyond_planets_core:moon_cobalt_ore"
   ],
   "step": "underground_ores"
 }

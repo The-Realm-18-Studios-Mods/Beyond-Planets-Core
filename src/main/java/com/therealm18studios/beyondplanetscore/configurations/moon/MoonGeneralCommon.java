@@ -12,6 +12,7 @@ public class MoonGeneralCommon {
     public static final ForgeConfigSpec.ConfigValue<Boolean> MOONLEAD;
     public static final ForgeConfigSpec.ConfigValue<Boolean> MOONZINC;
     public static final ForgeConfigSpec.ConfigValue<Boolean> MOONURANIUM;
+    public static final ForgeConfigSpec.ConfigValue<Boolean> MOONCOBALT;
 
 
 
@@ -25,6 +26,7 @@ public class MoonGeneralCommon {
         MOONTIN = BUILDER.comment("Should Moon Tin Ore spawn.\nDefault = true (true/false)").define("Moon Tin Ore", true);
         MOONURANIUM = BUILDER.comment("Should Moon Uranium Ore spawn.\nDefault = true (true/false)").define("Moon Uranium Ore", true);
         MOONZINC = BUILDER.comment("Should Moon Zinc Ore spawn.\nDefault = true (true/false)").define("Moon Zinc Ore", true);
+        MOONCOBALT = BUILDER.comment("Should Moon Cobalt Ore spawn.\nDefault = true (true/false)").define("Moon Cobalt Ore", true);
 
         BUILDER.pop();
         SPEC = BUILDER.build();

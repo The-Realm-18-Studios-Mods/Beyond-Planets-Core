@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#beyond_earth:is_type/is_moon",
+  "features": [
+    "beyond_planets_core:moon_copper_ore",
+    "beyond_planets_core:moon_lead_ore",
+    "beyond_planets_core:moon_tib_ore",
+    "beyond_planets_core:moon_uranium_ore",
+    "beyond_planets_core:moon_zinc_ore"
+  ],
+  "step": "underground_ores"
+}

@@ -2,9 +2,8 @@
   "type": "forge:add_features",
   "biomes": "#beyond_earth:is_type/is_glacio",
   "features": [
-    "beyond_planets_core:glacio_copper_ore",
     "beyond_planets_core:glacio_lead_ore",
-    "beyond_planets_core:glacio_tib_ore",
+    "beyond_planets_core:glacio_tin_ore",
     "beyond_planets_core:glacio_uranium_ore",
     "beyond_planets_core:glacio_zinc_ore"
   ],

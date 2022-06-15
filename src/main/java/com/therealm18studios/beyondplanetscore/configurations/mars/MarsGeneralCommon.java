@@ -13,6 +13,7 @@ public class MarsGeneralCommon {
     public static final ForgeConfigSpec.ConfigValue<Boolean> MARSZINC;
     public static final ForgeConfigSpec.ConfigValue<Boolean> MARSURANIUM;
     public static final ForgeConfigSpec.ConfigValue<Boolean> MARSCOBALT;
+    public static final ForgeConfigSpec.ConfigValue<Boolean> MARSCOAL;
 
 
 

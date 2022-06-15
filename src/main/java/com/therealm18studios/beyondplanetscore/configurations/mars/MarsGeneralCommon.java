@@ -12,6 +12,7 @@ public class MarsGeneralCommon {
     public static final ForgeConfigSpec.ConfigValue<Boolean> MARSLEAD;
     public static final ForgeConfigSpec.ConfigValue<Boolean> MARSZINC;
     public static final ForgeConfigSpec.ConfigValue<Boolean> MARSURANIUM;
+    public static final ForgeConfigSpec.ConfigValue<Boolean> MARSCOBALT;
 
 
 
@@ -25,6 +26,7 @@ public class MarsGeneralCommon {
         MARSTIN = BUILDER.comment("Should Mars Tin Ore spawn.\nDefault = true (true/false)").define("Mars Tin Ore", true);
         MARSURANIUM = BUILDER.comment("Should Mars Uranium Ore spawn.\nDefault = true (true/false)").define("Mars Uranium Ore", true);
         MARSZINC = BUILDER.comment("Should Mars Zinc Ore spawn.\nDefault = true (true/false)").define("Mars Zinc Ore", true);
+        MARSCOBALT = BUILDER.comment("Should Mars Cobalt Ore spawn.\nDefault = true (true/false)").define("Mars Cobalt Ore", true);
 
         BUILDER.pop();
         SPEC = BUILDER.build();

@@ -12,12 +12,6 @@ public class ItemsRegistry {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BeyondPlanetsCore.MODID);
 
-//    //Decoration Blocks Todo
-//    public static final RegistryObject<BlockItem> BLOCK1ITEM = ITEMS.register("block1", () -> new BlockItem(BlocksRegistry.BLOCK1.get(), new Item.Properties()));
-//    public static final RegistryObject<BlockItem> WALL1ITEM = ITEMS.register("wall1", () -> new BlockItem(BlocksRegistry.WALL1.get(), new Item.Properties()));
-//    public static final RegistryObject<BlockItem> SLAB1ITEM = ITEMS.register("slab1", () -> new BlockItem(BlocksRegistry.SLAB1.get(), new Item.Properties()));
-//    public static final RegistryObject<BlockItem> STAIR1ITEM = ITEMS.register("stair1", () -> new BlockItem(BlocksRegistry.STAIR1.get(), new Item.Properties()));
-
     //Raw Ores
     public static final RegistryObject<Item> RAW_LEAD_ITEM = ITEMS.register("raw_ore_lead", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
     public static final RegistryObject<Item> RAW_TIN_ITEM = ITEMS.register("raw_ore_tin", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));

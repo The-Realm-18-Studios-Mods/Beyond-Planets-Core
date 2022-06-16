@@ -61,8 +61,8 @@ public class OreGeneration {
     public static final RegistryObject<PlacedFeature> MARS_COBALT_ORE = PLACED_FEATURES.register("mars_cobalt_ore", () -> new PlacedFeature(MARS_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MarsOreGenerationCommon.MARSCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MarsOreGenerationCommon.MARSCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MarsOreGenerationCommon.MARSCOBALTHEIGHTTOP.get())))));
 
     //MARS_COAL_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MARS_COAL_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mars_coal_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MARS_MATCH, BlocksRegistry.MARS_COAL_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MARS_COAL_ORE = FeatureRegistry.PLACED_FEATURES.register("mars_coal_ore", () -> new PlacedFeature(MARS_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MarsOreGenerationCommon.MARSCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MarsOreGenerationCommon.MARSCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MarsOreGenerationCommon.MARSCOALHEIGHTTOP.get())))));
+    public static final RegistryObject<ConfiguredFeature<?,?>> MARS_COAL_ORE_CONFIGURED = CONFIGURED_FEATURES.register("mars_coal_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MARS_MATCH, BlocksRegistry.MARS_COAL_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> MARS_COAL_ORE = PLACED_FEATURES.register("mars_coal_ore", () -> new PlacedFeature(MARS_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MarsOreGenerationCommon.MARSCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MarsOreGenerationCommon.MARSCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MarsOreGenerationCommon.MARSCOALHEIGHTTOP.get())))));
 
 
     /** VENUS ORES: */
@@ -73,7 +73,7 @@ public class OreGeneration {
     public static final RegistryObject<ConfiguredFeature<?,?>> VENUS_COPPER_ORE_CONFIGURED = CONFIGURED_FEATURES.register("venus_copper_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(VENUS_MATCH, BlocksRegistry.VENUS_COPPER_ORE.get().defaultBlockState(), 10)));
     public static final RegistryObject<PlacedFeature> VENUS_COPPER_ORE = PLACED_FEATURES.register("venus_copper_ore", () -> new PlacedFeature(VENUS_COPPER_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(VenusOreGenerationCommon.VENUSCOPPERVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(VenusOreGenerationCommon.VENUSCOPPERHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(VenusOreGenerationCommon.VENUSCOPPERHEIGHTTOP.get())))));
 
-    // VENUS_LEAD_ORE_ORE
+    // VENUS_LEAD_ORE
     public static final RegistryObject<ConfiguredFeature<?,?>> VENUS_LEAD_ORE_CONFIGURED = CONFIGURED_FEATURES.register("venus_lead_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(VENUS_MATCH, BlocksRegistry.VENUS_LEAD_ORE.get().defaultBlockState(), 11)));
     public static final RegistryObject<PlacedFeature> VENUS_LEAD_ORE = PLACED_FEATURES.register("venus_lead_ore", () -> new PlacedFeature(VENUS_LEAD_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(VenusOreGenerationCommon.VENUSLEADVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.absolute(VenusOreGenerationCommon.VENUSLEADHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(VenusOreGenerationCommon.VENUSLEADHEIGHTTOP.get())))));
 
@@ -92,10 +92,6 @@ public class OreGeneration {
     // VENUS_COBALT_ORE
     public static final RegistryObject<ConfiguredFeature<?,?>> VENUS_COBALT_ORE_CONFIGURED = CONFIGURED_FEATURES.register("venus_cobalt_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(VENUS_MATCH, BlocksRegistry.VENUS_COBALT_ORE.get().defaultBlockState(), 8)));
     public static final RegistryObject<PlacedFeature> VENUS_COBALT_ORE = PLACED_FEATURES.register("venus_cobalt_ore", () -> new PlacedFeature(VENUS_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(VenusOreGenerationCommon.VENUSCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(VenusOreGenerationCommon.VENUSCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(VenusOreGenerationCommon.VENUSCOBALTHEIGHTTOP.get())))));
-
-    // VENUS_COBALT_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> VENUS_COBALT_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("venus_cobalt_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(VENUS_MATCH, BlocksRegistry.VENUS_COBALT_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> VENUS_COBALT_ORE = FeatureRegistry.PLACED_FEATURES.register("venus_cobalt_ore", () -> new PlacedFeature(VENUS_COBALT_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(VenusOreGenerationCommon.VENUSCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(VenusOreGenerationCommon.VENUSCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(VenusOreGenerationCommon.VENUSCOBALTHEIGHTTOP.get())))));
 
 
     /** MOON ORES: */
@@ -123,12 +119,12 @@ public class OreGeneration {
     public static final RegistryObject<PlacedFeature> MOON_ZINC_ORE = PLACED_FEATURES.register("moon_zinc_ore", () -> new PlacedFeature(MOON_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MoonOreGenerationCommon.MOONZINCVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONZINCHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONZINCHEIGHTTOP.get())))));
 
     // MOON_COBALT_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MOON_COBALT_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("moon_cobalt_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MOON_MATCH, BlocksRegistry.MOON_COBALT_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MOON_COBALT_ORE = FeatureRegistry.PLACED_FEATURES.register("moon_cobalt_ore", () -> new PlacedFeature(MOON_COBALT_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MoonOreGenerationCommon.MOONCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONCOBALTHEIGHTTOP.get())))));
+    public static final RegistryObject<ConfiguredFeature<?,?>> MOON_COBALT_ORE_CONFIGURED = CONFIGURED_FEATURES.register("moon_cobalt_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MOON_MATCH, BlocksRegistry.MOON_COBALT_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> MOON_COBALT_ORE = PLACED_FEATURES.register("moon_cobalt_ore", () -> new PlacedFeature(MOON_COBALT_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MoonOreGenerationCommon.MOONCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONCOBALTHEIGHTTOP.get())))));
 
     // MOON_COAL_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MOON_COAL_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("moon_coal_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MOON_MATCH, BlocksRegistry.MOON_COAL_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MOON_COAL_ORE = FeatureRegistry.PLACED_FEATURES.register("moon_coal_ore", () -> new PlacedFeature(MOON_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MoonOreGenerationCommon.MOONCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONCOALHEIGHTTOP.get())))));
+    public static final RegistryObject<ConfiguredFeature<?,?>> MOON_COAL_ORE_CONFIGURED = CONFIGURED_FEATURES.register("moon_coal_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MOON_MATCH, BlocksRegistry.MOON_COAL_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> MOON_COAL_ORE = PLACED_FEATURES.register("moon_coal_ore", () -> new PlacedFeature(MOON_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MoonOreGenerationCommon.MOONCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MoonOreGenerationCommon.MOONCOALHEIGHTTOP.get())))));
 
 
     /** MERCURY ORES: */
@@ -160,12 +156,12 @@ public class OreGeneration {
     public static final RegistryObject<PlacedFeature> MERCURY_COBALT_ORE = PLACED_FEATURES.register("mercury_cobalt_ore", () -> new PlacedFeature(MERCURY_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOBALTHEIGHTTOP.get())))));
 
     // MERCURY_COBALT_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_COBALT_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mercury_cobalt_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_COBALT_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MERCURY_COBALT_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_cobalt_ore", () -> new PlacedFeature(MERCURY_COBALT_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOBALTHEIGHTTOP.get())))));
+    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_COBALT_ORE_CONFIGURED = CONFIGURED_FEATURES.register("mercury_cobalt_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_COBALT_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> MERCURY_COBALT_ORE = PLACED_FEATURES.register("mercury_cobalt_ore", () -> new PlacedFeature(MERCURY_COBALT_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOBALTHEIGHTTOP.get())))));
 
     // MERCURY_COAL_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_COAL_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mercury_coal_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_COAL_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MERCURY_COAL_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_coal_ore", () -> new PlacedFeature(MERCURY_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOALHEIGHTTOP.get())))));
+    public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_COAL_ORE_CONFIGURED = CONFIGURED_FEATURES.register("mercury_coal_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_COAL_ORE.get().defaultBlockState(), 8)));
+    public static final RegistryObject<PlacedFeature> MERCURY_COAL_ORE = PLACED_FEATURES.register("mercury_coal_ore", () -> new PlacedFeature(MERCURY_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOALHEIGHTTOP.get())))));
 
 
     /** GLACIO ORES: */

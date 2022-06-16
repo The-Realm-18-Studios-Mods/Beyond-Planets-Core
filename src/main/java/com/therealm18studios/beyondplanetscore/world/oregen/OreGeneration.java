@@ -156,7 +156,7 @@ public class OreGeneration {
 
     // MERCURY_COAL_ORE
     public static final RegistryObject<ConfiguredFeature<?,?>> MERCURY_COAL_ORE_CONFIGURED = FeatureRegistry.CONFIGURED_FEATURES.register("mercury_coal_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MERCURY_MATCH, BlocksRegistry.MERCURY_COAL_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MERCURY_COAL_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_coal_ore", () -> new PlacedFeature(MERCURY_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYSCOALHEIGHTTOP.get())))));
+    public static final RegistryObject<PlacedFeature> MERCURY_COAL_ORE = FeatureRegistry.PLACED_FEATURES.register("mercury_coal_ore", () -> new PlacedFeature(MERCURY_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MercuryOreGenerationCommon.MERCURYCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MercuryOreGenerationCommon.MERCURYCOALHEIGHTTOP.get())))));
 
 
     /** GLACIO ORES: */

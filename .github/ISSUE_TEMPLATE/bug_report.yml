@@ -9,20 +9,22 @@ body:
       label: Mod loader
       options:
         - Forge
+        - Fabric
+        - Quilt
     validations:
       required: true
   - type: input
     id: mc-version
     attributes:
       label: Minecraft version
-      placeholder: eg. 1.18.2
+      placeholder: eg. 1.18.2/1.19
     validations:
       required: true
   - type: input
     id: mod-version
     attributes:
       label: Beyond Planets - Core version
-      placeholder: eg. 1.18.2-1.0.0
+      placeholder: eg. 1.18.2-1.0.0/1.19-1.1.0
     validations:
       required: true
   - type: input
@@ -31,7 +33,7 @@ body:
       label: Modloader version
       description: |
         List the version of the mod loader you are using.
-      placeholder: "eg. Forge: 40.1.0"
+      placeholder: "eg. Forge: 40.1.0/Fabric: 0.14.8/Quilt: 0.17.1-Beta.2"
     validations:
       required: true
   - type: input

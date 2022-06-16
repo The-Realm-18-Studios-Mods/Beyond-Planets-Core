@@ -11,11 +11,7 @@ body::
       label: Minecraft version
       options:
         - 1.18.2
-        labels:
-          - 1.18.2
         - 1.19
-        labels:
-          - 1.19
     validations:
       required: true
   - type: textarea

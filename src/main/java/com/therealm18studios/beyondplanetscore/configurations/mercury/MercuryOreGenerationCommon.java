@@ -16,6 +16,7 @@ public class MercuryOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOBALTHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOALHEIGHTTOP;
 
+
     //Bottom Level
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOPPERHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYTINHEIGHTBOTTOM;
@@ -25,6 +26,7 @@ public class MercuryOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOBALTHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOALHEIGHTBOTTOM;
 
+
     //Vein Size
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOPPERVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYTINVEIN;
@@ -33,6 +35,7 @@ public class MercuryOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYZINCVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOBALTVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOALVEIN;
+
 
 
 

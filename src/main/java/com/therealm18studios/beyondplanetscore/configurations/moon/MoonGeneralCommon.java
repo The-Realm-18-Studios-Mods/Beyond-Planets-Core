@@ -17,6 +17,7 @@ public class MoonGeneralCommon {
 
 
 
+
     // Somewhere the constructor is accessible
     static {
         BUILDER.push("Beyond Planets Core - Moon Ore Config");
@@ -29,6 +30,7 @@ public class MoonGeneralCommon {
         MOONZINC = BUILDER.comment("Should Moon Zinc Ore spawn.\nDefault = true (true/false)").define("Moon Zinc Ore", true);
         MOONCOBALT = BUILDER.comment("Should Moon Cobalt Ore spawn.\nDefault = true (true/false)").define("Moon Cobalt Ore", true);
         MOONCOAL = BUILDER.comment("Should Moon Coal Ore spawn.\nDefault = true (true/false)").define("Moon Coal Ore", true);
+
 
         BUILDER.pop();
         SPEC = BUILDER.build();

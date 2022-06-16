@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[41,)"
 license="All rights reserved"
 
 [[mods]]
@@ -7,7 +7,7 @@ modId="beyond_planets_core"
 version="${file.jarVersion}"
 displayName="Beyond Planets - Core"
 credits="TheRealM18"
-authors="TheRealM18"
+authors="The Realm 18 Studios"
 description='''
 This mod for the core of Beyond Planets.
 '''
@@ -15,20 +15,20 @@ This mod for the core of Beyond Planets.
 [[dependencies.beyond_planets_core]]
     modId="forge"
     mandatory=true
-    versionRange="[40.1.51,)"
+    versionRange="[41,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.beyond_planets_core]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2,)"
+    versionRange="[1.19,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.beyond_planets_core]]
     modId="beyond_earth"
     mandatory=true
-    versionRange="[6.1,)"
+    versionRange="[6.3,)"
     ordering="AFTER"
     side="BOTH"

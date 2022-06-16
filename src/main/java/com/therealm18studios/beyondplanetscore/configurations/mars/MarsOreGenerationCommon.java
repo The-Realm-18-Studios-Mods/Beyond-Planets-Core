@@ -16,6 +16,7 @@ public class MarsOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOBALTHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOALHEIGHTTOP;
 
+
     //Bottom Level
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOPPERHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSTINHEIGHTBOTTOM;
@@ -25,6 +26,7 @@ public class MarsOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOBALTHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOALHEIGHTBOTTOM;
 
+
     //Vein Size
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOPPERVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSTINVEIN;
@@ -33,6 +35,7 @@ public class MarsOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSZINCVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOBALTVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MARSCOALVEIN;
+
 
 
 

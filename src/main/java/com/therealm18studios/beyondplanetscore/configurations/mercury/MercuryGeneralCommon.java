@@ -17,6 +17,7 @@ public class MercuryGeneralCommon {
 
 
 
+
     // Somewhere the constructor is accessible
     static {
         BUILDER.push("Beyond Planets Core - Mercury Ore Config");
@@ -29,6 +30,7 @@ public class MercuryGeneralCommon {
         MERCURYZINC = BUILDER.comment("Should Mercury Zinc Ore spawn.\nDefault = true (true/false)").define("Mercury Zinc Ore", true);
         MERCURYCOBALT = BUILDER.comment("Should Mercury Cobalt Ore spawn.\nDefault = true (true/false)").define("Mercury Cobalt Ore", true);
         MERCURYCOAL = BUILDER.comment("Should Mercury Coal Ore spawn.\nDefault = true (true/false)").define("Mercury Coal Ore", true);
+
 
         BUILDER.pop();
         SPEC = BUILDER.build();

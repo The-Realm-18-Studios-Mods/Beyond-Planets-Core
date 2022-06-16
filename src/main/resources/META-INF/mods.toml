@@ -15,7 +15,7 @@ This mod for the core of Beyond Planets.
 [[dependencies.beyond_planets_core]]
     modId="forge"
     mandatory=true
-    versionRange="[40,)"
+    versionRange="[40.1.51,)"
     ordering="NONE"
     side="BOTH"
 

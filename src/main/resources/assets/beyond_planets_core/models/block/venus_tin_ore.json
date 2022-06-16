@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "beyond_planets_core:blocks/venus/venus_tin_ore"
-  }
-}

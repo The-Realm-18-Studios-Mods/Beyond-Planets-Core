@@ -13,6 +13,8 @@ public class MercuryGeneralCommon {
     public static final ForgeConfigSpec.ConfigValue<Boolean> MERCURYZINC;
     public static final ForgeConfigSpec.ConfigValue<Boolean> MERCURYURANIUM;
     public static final ForgeConfigSpec.ConfigValue<Boolean> MERCURYCOBALT;
+    public static final ForgeConfigSpec.ConfigValue<Boolean> MERCURYCOAL;
+
 
 
 
@@ -27,6 +29,8 @@ public class MercuryGeneralCommon {
         MERCURYURANIUM = BUILDER.comment("Should Mercury Uranium Ore spawn.\nDefault = true (true/false)").define("Mercury Uranium Ore", true);
         MERCURYZINC = BUILDER.comment("Should Mercury Zinc Ore spawn.\nDefault = true (true/false)").define("Mercury Zinc Ore", true);
         MERCURYCOBALT = BUILDER.comment("Should Mercury Cobalt Ore spawn.\nDefault = true (true/false)").define("Mercury Cobalt Ore", true);
+        MERCURYCOAL = BUILDER.comment("Should Mercury Coal Ore spawn.\nDefault = true (true/false)").define("Mercury Coal Ore", true);
+
 
         BUILDER.pop();
         SPEC = BUILDER.build();

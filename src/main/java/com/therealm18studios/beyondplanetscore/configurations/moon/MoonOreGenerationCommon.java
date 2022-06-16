@@ -14,6 +14,8 @@ public class MoonOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONURANIUMHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONZINCHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOBALTHEIGHTTOP;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOALHEIGHTTOP;
+
 
     //Bottom Level
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOPPERHEIGHTBOTTOM;
@@ -22,6 +24,7 @@ public class MoonOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONURANIUMHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONZINCHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOBALTHEIGHTBOTTOM;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOALHEIGHTBOTTOM;
 
     //Vein Size
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOPPERVEIN;
@@ -30,6 +33,7 @@ public class MoonOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONURANIUMVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONZINCVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOBALTVEIN;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOALVEIN;
 
 
 
@@ -77,6 +81,13 @@ public class MoonOreGenerationCommon {
         MOONCOBALTHEIGHTTOP = BUILDER.comment("Should Moon Cobalt Ore spawn.\nDefault = 80 (number)").define("Moon Cobalt Ore Height Top", 80);
         MOONCOBALTHEIGHTBOTTOM = BUILDER.comment("Should Moon Cobalt Ore Height Bottom.\nDefault = -80 (number)").define("Moon Cobalt Ore Height Bottom", -80);
         MOONCOBALTVEIN = BUILDER.comment("Should Moon Cobalt Ore Vein Size.\nDefault = 8 (number)").define("Moon Cobalt Ore Vein Size", 6);
+        BUILDER.pop();
+
+        //Moon Coal Ores
+        BUILDER.push("Beyond Planets Core - Moon Coal Ore Config");
+        MOONCOALHEIGHTTOP = BUILDER.comment("Should Moon Coal Ore spawn.\nDefault = 80 (number)").define("Moon Coal Ore Height Top", 80);
+        MOONCOALHEIGHTBOTTOM = BUILDER.comment("Should Moon Coal Ore Height Bottom.\nDefault = -80 (number)").define("Moon Coal Ore Height Bottom", -80);
+        MOONCOALVEIN = BUILDER.comment("Should Moon Coal Ore Vein Size.\nDefault = 8 (number)").define("Moon Coal Ore Vein Size", 6);
         BUILDER.pop();
 
         BUILDER.pop();

@@ -14,6 +14,8 @@ public class MercuryOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYURANIUMHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYZINCHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOBALTHEIGHTTOP;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOALHEIGHTTOP;
+
 
     //Bottom Level
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOPPERHEIGHTBOTTOM;
@@ -22,6 +24,8 @@ public class MercuryOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYURANIUMHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYZINCHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOBALTHEIGHTBOTTOM;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOALHEIGHTBOTTOM;
+
 
     //Vein Size
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOPPERVEIN;
@@ -30,6 +34,8 @@ public class MercuryOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYURANIUMVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYZINCVEIN;
     public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOBALTVEIN;
+    public static final ForgeConfigSpec.ConfigValue<Integer> MERCURYCOALVEIN;
+
 
 
 
@@ -77,6 +83,13 @@ public class MercuryOreGenerationCommon {
         MERCURYCOBALTHEIGHTTOP = BUILDER.comment("Should Mercury Cobalt Ore spawn.\nDefault = 80 (number)").define("Mercury Cobalt Ore Height Top", 80);
         MERCURYCOBALTHEIGHTBOTTOM = BUILDER.comment("Should Mercury Cobalt Ore Height Bottom.\nDefault = -80 (number)").define("Mercury Cobalt Ore Height Bottom", -80);
         MERCURYCOBALTVEIN = BUILDER.comment("Should Mercury Cobalt Ore Vein Size.\nDefault = 8 (number)").define("Mercury Cobalt Ore Vein Size", 6);
+        BUILDER.pop();
+
+        //Mercury Coal Ores
+        BUILDER.push("Beyond Planets Core - Mercury Coal Ore Config");
+        MERCURYCOALHEIGHTTOP = BUILDER.comment("Should Mercury Coal Ore spawn.\nDefault = 80 (number)").define("Mercury Coal Ore Height Top", 80);
+        MERCURYCOALHEIGHTBOTTOM = BUILDER.comment("Should Mercury Coal Ore Height Bottom.\nDefault = -80 (number)").define("Mercury Coal Ore Height Bottom", -80);
+        MERCURYCOALVEIN = BUILDER.comment("Should Mercury Coal Ore Vein Size.\nDefault = 8 (number)").define("Mercury Coal Ore Vein Size", 6);
         BUILDER.pop();
 
         BUILDER.pop();

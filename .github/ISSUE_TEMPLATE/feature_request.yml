@@ -4,7 +4,20 @@ labels:
 assignees:
   - Lego245
 description: Suggest an improvement or a new feature
-body:
+body::
+  - type: dropdown
+    id: modloader
+    attributes:
+      label: Minecraft version
+      options:
+        - 1.18.2
+        labels:
+          - 1.18.2
+        - 1.19
+        labels:
+          - 1.19
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Describe the feature

@@ -3,9 +3,9 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "beyond_planets_core:moon_copper_ore"
+    "item": "beyond_planets_core:moon_cobalt_ore"
   },
   "result": {
-    "item": "minecraft:copper_ingot"
+    "item": "beyond_planets_core:ingot_cobalt"
   }
 }

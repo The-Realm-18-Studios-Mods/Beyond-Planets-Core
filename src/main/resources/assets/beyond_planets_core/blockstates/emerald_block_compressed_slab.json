@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyond_planets_core:block/emerald_block_compressed_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/emerald_block"
+    },
+    "type=top": {
+      "model": "beyond_planets_core:block/emerald_block_compressed_slab_top"
+    }
+  }
+}

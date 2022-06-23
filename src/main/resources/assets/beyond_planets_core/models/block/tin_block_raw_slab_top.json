@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "beyond_planets_core:blocks/block_raw/tin_block_raw",
+    "top": "beyond_planets_core:blocks/block_raw/tin_block_raw",
+    "side": "beyond_planets_core:blocks/block_raw/tin_block_raw"
+  }
+}

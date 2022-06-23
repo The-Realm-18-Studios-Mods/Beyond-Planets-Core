@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyond_planets_core:block/tin_block_raw_slab"
+    },
+    "type=double": {
+      "model": "beyond_planets_core:block/tin_block_raw"
+    },
+    "type=top": {
+      "model": "beyond_planets_core:block/tin_block_raw_slab_top"
+    }
+  }
+}

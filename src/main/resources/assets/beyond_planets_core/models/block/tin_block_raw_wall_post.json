@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "beyond_planets_core:blocks/block_raw/tin_block_raw"
+  }
+}

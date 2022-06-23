@@ -31,9 +31,38 @@ public class BlocksRegistry {
     public static RegistryObject<Block> IRON_BLOCK_COMPRESSED_SLAB = BLOCKS.register("iron_block_compressed_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> IRON_BLOCK_COMPRESSED_STAIR = BLOCKS.register("iron_block_compressed_stairs", () -> { return new StairBlock(() -> Blocks.IRON_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
 
+    //Building Blocks Lapis
+    public static RegistryObject<Block> LAPIS_BLOCK_COMPRESSED_WALL = BLOCKS.register("lapis_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> LAPIS_BLOCK_COMPRESSED_SLAB = BLOCKS.register("lapis_block_compressed_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> LAPIS_BLOCK_COMPRESSED_STAIR = BLOCKS.register("lapis_block_compressed_stairs", () -> { return new StairBlock(() -> Blocks.LAPIS_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+
+    //Building Blocks Copper
+    public static RegistryObject<Block> COPPER_BLOCK_RAW_WALL = BLOCKS.register("copper_block_raw_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> COPPER_BLOCK_RAW_SLAB = BLOCKS.register("copper_block_raw_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> COPPER_BLOCK_RAW_STAIR = BLOCKS.register("copper_block_raw_stairs", () -> { return new StairBlock(() -> Blocks.RAW_COPPER_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+
+    //Building Blocks Diamond
+    public static RegistryObject<Block> DIAMOND_BLOCK_COMPRESSED_WALL = BLOCKS.register("diamond_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> DIAMOND_BLOCK_COMPRESSED_SLAB = BLOCKS.register("diamond_block_compressed_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> DIAMOND_BLOCK_COMPRESSED_STAIR = BLOCKS.register("diamond_block_compressed_stairs", () -> { return new StairBlock(() -> Blocks.DIAMOND_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+
+    //Building Blocks Emerald
+    public static RegistryObject<Block> EMERALD_BLOCK_COMPRESSED_WALL = BLOCKS.register("emerald_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> EMERALD_BLOCK_COMPRESSED_SLAB = BLOCKS.register("emerald_block_compressed_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> EMERALD_BLOCK_COMPRESSED_STAIR = BLOCKS.register("emerald_block_compressed_stairs", () -> { return new StairBlock(() -> Blocks.EMERALD_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+
+    //Building Blocks Redstone
+    public static RegistryObject<Block> REDSTONE_BLOCK_COMPRESSED_WALL = BLOCKS.register("redstone_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> REDSTONE_BLOCK_COMPRESSED_SLAB = BLOCKS.register("redstone_block_compressed_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> REDSTONE_BLOCK_COMPRESSED_STAIR = BLOCKS.register("redstone_block_compressed_stairs", () -> { return new StairBlock(() -> Blocks.REDSTONE_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+
+    //Building Blocks Coal
+    public static RegistryObject<Block> COAL_BLOCK_COMPRESSED_WALL = BLOCKS.register("coal_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> COAL_BLOCK_COMPRESSED_SLAB = BLOCKS.register("coal_block_compressed_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> COAL_BLOCK_COMPRESSED_STAIR = BLOCKS.register("coal_block_compressed_stairs", () -> { return new StairBlock(() -> Blocks.COAL_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+
 
     //Beyond Planets - Core
-
 
     //Building Blocks Cobalt
     public static RegistryObject<Block> COBALT_BLOCK_RAW = BLOCKS.register("cobalt_block_raw", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});

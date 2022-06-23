@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beyond_planets_core:tin_block_compressed"
+  },
+  "result": "beyond_planets_core:tin_block_compressed_wall",
+  "count": 1
+}

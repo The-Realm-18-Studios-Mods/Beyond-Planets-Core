@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "result": {
+    "item": "beyond_planets_core:lapis_block_compressed_wall",
+    "count": 6
+  }
+}

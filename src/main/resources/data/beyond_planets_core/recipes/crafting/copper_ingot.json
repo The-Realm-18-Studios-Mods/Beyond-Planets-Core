@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper_ingot",
+  "ingredients": [
+    {
+      "item": "beyond_planets_core:copper_block_compressed"
+    }
+  ],
+  "result": {
+    "item": "beyond_planets_core:ingot_copper",
+    "count": 9
+  }
+}

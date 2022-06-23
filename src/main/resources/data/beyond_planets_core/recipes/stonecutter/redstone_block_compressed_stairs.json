@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:redston_block"
+  },
+  "result": "beyond_planets_core:redstone_block_compressed_stairs",
+  "count": 1
+}

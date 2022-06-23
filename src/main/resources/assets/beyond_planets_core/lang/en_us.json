@@ -1,4 +1,13 @@
 {
+  "block.beyond_planets_core.lead_block_raw": "Block Of Raw Lead",
+  "block.beyond_planets_core.lead_block_raw_wall": "Block Of Raw Lead Wall",
+  "block.beyond_planets_core.lead_block_raw_slab": "Block Of Raw Lead Slab",
+  "block.beyond_planets_core.lead_block_raw_stairs": "Block Of Raw Lead Stairs",
+  
+  "block.beyond_planets_core.gold_block_compressed_wall": "Block Of Gold Wall",
+  "block.beyond_planets_core.gold_block_compressed_slab": "Block Of Gold Slab",
+  "block.beyond_planets_core.gold_block_compressed_stairs": "Block Of Gold Stairs",
+
   "block.beyond_planets_core.mars_copper_ore": "Mars Copper Ore",
   "block.beyond_planets_core.mars_tin_ore": "Mars Tin Ore",
   "block.beyond_planets_core.mars_zinc_ore": "Mars Zinc Ore",

@@ -52,6 +52,38 @@ public class ItemsRegistry {
     public static final RegistryObject<BlockItem> LEAD_BLOCK_COMPRESSED_SLABITEM = ITEMS.register("lead_block_compressed_slab", () -> new BlockItem(BlocksRegistry.LEAD_BLOCK_COMPRESSED_SLAB.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<BlockItem> LEAD_BLOCK_COMPRESSED_STAIRSITEM = ITEMS.register("lead_block_compressed_stairs", () -> new BlockItem(BlocksRegistry.LEAD_BLOCK_COMPRESSED_STAIR.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
 
+    //Building Blocks Tin
+    public static final RegistryObject<BlockItem> TIN_BLOCK_RAW_BLOCKITEM = ITEMS.register("tin_block_raw", () -> new BlockItem(BlocksRegistry.TIN_BLOCK_RAW.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> TIN_BLOCK_RAW_WALLITEM = ITEMS.register("tin_block_raw_wall", () -> new BlockItem(BlocksRegistry.TIN_BLOCK_RAW_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> TIN_BLOCK_RAW_SLABITEM = ITEMS.register("tin_block_raw_slab", () -> new BlockItem(BlocksRegistry.TIN_BLOCK_RAW_SLAB.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> TIN_BLOCK_RAW_STAIRITEM = ITEMS.register("tin_block_raw_stairs", () -> new BlockItem(BlocksRegistry.TIN_BLOCK_RAW_STAIR.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> TIN_BLOCK_COMPRESSED_BLOCKITEM = ITEMS.register("tin_block_compressed", () -> new BlockItem(BlocksRegistry.TIN_BLOCK_COMPRESSED.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> TIN_BLOCK_COMPRESSED_WALLSITEM = ITEMS.register("tin_block_compressed_wall", () -> new BlockItem(BlocksRegistry.TIN_BLOCK_COMPRESSED_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> TIN_BLOCK_COMPRESSED_SLABITEM = ITEMS.register("tin_block_compressed_slab", () -> new BlockItem(BlocksRegistry.TIN_BLOCK_COMPRESSED_SLAB.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> TIN_BLOCK_COMPRESSED_STAIRSITEM = ITEMS.register("tin_block_compressed_stairs", () -> new BlockItem(BlocksRegistry.TIN_BLOCK_COMPRESSED_STAIR.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+
+    //Building Blocks Uranium
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_RAW_BLOCKITEM = ITEMS.register("uranium_block_raw", () -> new BlockItem(BlocksRegistry.URANIUM_BLOCK_RAW.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_RAW_WALLITEM = ITEMS.register("uranium_block_raw_wall", () -> new BlockItem(BlocksRegistry.URANIUM_BLOCK_RAW_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_RAW_SLABITEM = ITEMS.register("uranium_block_raw_slab", () -> new BlockItem(BlocksRegistry.URANIUM_BLOCK_RAW_SLAB.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_RAW_STAIRSITEM = ITEMS.register("uranium_block_raw_stairs", () -> new BlockItem(BlocksRegistry.URANIUM_BLOCK_RAW_STAIR.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_COMPRESSED_BLOCKITEM = ITEMS.register("uranium_block_compressed", () -> new BlockItem(BlocksRegistry.URANIUM_BLOCK_COMPRESSED.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_COMPRESSED_WALLITEM = ITEMS.register("uranium_block_compressed_wall", () -> new BlockItem(BlocksRegistry.URANIUM_BLOCK_COMPRESSED_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_COMPRESSED_SLABITEM = ITEMS.register("uranium_block_compressed_slab", () -> new BlockItem(BlocksRegistry.URANIUM_BLOCK_COMPRESSED_SLAB.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> URANIUM_BLOCK_COMPRESSED_STAIRSITEM = ITEMS.register("uranium_block_compressed_stairs", () -> new BlockItem(BlocksRegistry.URANIUM_BLOCK_COMPRESSED_STAIR.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+
+    //Building Blocks Zinc
+    public static final RegistryObject<BlockItem> ZINC_BLOCK_RAW_BLOCKITEM = ITEMS.register("zinc_block_raw", () -> new BlockItem(BlocksRegistry.ZINC_BLOCK_RAW.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ZINC_BLOCK_RAW_WALLITEM = ITEMS.register("zinc_block_raw_wall", () -> new BlockItem(BlocksRegistry.ZINC_BLOCK_RAW_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ZINC_BLOCK_RAW_SLABITEM = ITEMS.register("zinc_block_raw_slab", () -> new BlockItem(BlocksRegistry.ZINC_BLOCK_RAW_SLAB.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ZINC_BLOCK_RAW_STAIRITEM = ITEMS.register("zinc_block_raw_stairs", () -> new BlockItem(BlocksRegistry.ZINC_BLOCK_RAW_STAIR.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ZINC_BLOCK_COMPRESSED_BLOCKITEM = ITEMS.register("zinc_block_compressed", () -> new BlockItem(BlocksRegistry.ZINC_BLOCK_COMPRESSED.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ZINC_BLOCK_COMPRESSED_WALLSITEM = ITEMS.register("zinc_block_compressed_wall", () -> new BlockItem(BlocksRegistry.ZINC_BLOCK_COMPRESSED_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ZINC_BLOCK_COMPRESSED_SLABITEM = ITEMS.register("zinc_block_compressed_slab", () -> new BlockItem(BlocksRegistry.ZINC_BLOCK_COMPRESSED_SLAB.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ZINC_BLOCK_COMPRESSED_STAIRSITEM = ITEMS.register("zinc_block_compressed_stairs", () -> new BlockItem(BlocksRegistry.ZINC_BLOCK_COMPRESSED_STAIR.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+
+
+
     //Raw Ores
     public static final RegistryObject<Item> RAW_LEAD_ITEM = ITEMS.register("raw_ore_lead", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));
     public static final RegistryObject<Item> RAW_TIN_ITEM = ITEMS.register("raw_ore_tin", () -> new Item(new Item.Properties().tab(ItemGroups.TAB_ITEMS)));

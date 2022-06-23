@@ -13,6 +13,28 @@ public class BlocksRegistry {
 
     public static DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, BeyondPlanetsCore.MODID);
 
+    //Minecraft
+
+    //Building Blocks Gold
+    public static RegistryObject<Block> GOLD_BLOCK_RAW_WALL = BLOCKS.register("gold_block_raw_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> GOLD_BLOCK_RAW_SLAB = BLOCKS.register("gold_block_raw_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> GOLD_BLOCK_RAW_STAIR = BLOCKS.register("gold_block_raw_stairs", () -> { return new StairBlock(() -> Blocks.RAW_GOLD_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> GOLD_BLOCK_COMPRESSED_WALL = BLOCKS.register("gold_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> GOLD_BLOCK_COMPRESSED_SLAB = BLOCKS.register("gold_block_compressed_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> GOLD_BLOCK_COMPRESSED_STAIR = BLOCKS.register("gold_block_compressed_stairs", () -> { return new StairBlock(() -> Blocks.GOLD_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+
+    //Building Blocks Iron
+    public static RegistryObject<Block> IRON_BLOCK_RAW_WALL = BLOCKS.register("iron_block_raw_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> IRON_BLOCK_RAW_SLAB = BLOCKS.register("iron_block_raw_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> IRON_BLOCK_RAW_STAIR = BLOCKS.register("iron_block_raw_stairs", () -> { return new StairBlock(() -> Blocks.RAW_IRON_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> IRON_BLOCK_COMPRESSED_WALL = BLOCKS.register("iron_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> IRON_BLOCK_COMPRESSED_SLAB = BLOCKS.register("iron_block_compressed_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> IRON_BLOCK_COMPRESSED_STAIR = BLOCKS.register("iron_block_compressed_stairs", () -> { return new StairBlock(() -> Blocks.IRON_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+
+
+    //Beyond Planets - Core
+
+
     //Building Blocks Cobalt
     public static RegistryObject<Block> COBALT_BLOCK_RAW = BLOCKS.register("cobalt_block_raw", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> COBALT_BLOCK_RAW_WALL = BLOCKS.register("cobalt_block_raw_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});

@@ -1,6 +1,7 @@
 name: Feature Request
 labels:
   - enhancement
+  - Review
 assignees:
   - Lego245
 description: Suggest an improvement or a new feature

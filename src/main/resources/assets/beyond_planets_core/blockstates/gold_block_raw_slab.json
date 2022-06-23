@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyond_planets_core:block/gold_block_raw_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/raw_gold_block"
+    },
+    "type=top": {
+      "model": "beyond_planets_core:block/gold_block_raw_slab_top"
+    }
+  }
+}

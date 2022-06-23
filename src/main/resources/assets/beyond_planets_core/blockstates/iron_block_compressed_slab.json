@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyond_planets_core:block/iron_block_compressed_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/iron_block"
+    },
+    "type=top": {
+      "model": "beyond_planets_core:block/iron_block_compressed_slab_top"
+    }
+  }
+}

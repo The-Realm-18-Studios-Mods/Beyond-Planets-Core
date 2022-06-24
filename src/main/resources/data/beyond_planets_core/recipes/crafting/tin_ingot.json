@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tin_ingot",
+  "ingredients": [
+    {
+      "item": "beyond_planets_core:tin_block_compressed"
+    }
+  ],
+  "result": {
+    "item": "beyond_planets_core:ingot_tin",
+    "count": 9
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "result": "beyond_planets_core:iron_block_compressed_wall",
+  "count": 1
+}

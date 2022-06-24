@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beyond_planets_core:cobalt_block_raw"
+    }
+  },
+  "result": {
+    "item": "beyond_planets_core:cobalt_block_raw_stairs",
+    "count": 4
+  }
+}

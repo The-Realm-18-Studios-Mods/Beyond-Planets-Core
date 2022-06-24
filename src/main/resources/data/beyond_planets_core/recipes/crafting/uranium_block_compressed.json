@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beyond_planets_core:ingot_uranium"
+    }
+  },
+  "result": {
+    "item": "minecraft:uranium_block"
+  }
+}

@@ -16,6 +16,7 @@ public class MoonOreGenerationCommon {
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOBALTHEIGHTTOP;
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOALHEIGHTTOP;
 
+
     //Bottom Level
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONCOPPERHEIGHTBOTTOM;
     public static final ForgeConfigSpec.ConfigValue<Integer> MOONTINHEIGHTBOTTOM;

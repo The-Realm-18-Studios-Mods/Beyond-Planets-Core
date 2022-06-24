@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "zinc_ingot",
+  "ingredients": [
+    {
+      "item": "beyond_planets_core:zinc_block_compressed"
+    }
+  ],
+  "result": {
+    "item": "beyond_planets_core:ingot_zinc",
+    "count": 9
+  }
+}

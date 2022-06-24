@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": "beyond_planets_core:iron_block_raw_stairs",
+  "count": 1
+}

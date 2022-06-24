@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:raw_copper"
+  },
+  "result": "beyond_planets_core:copper_block_raw_slab",
+  "count": 2
+}

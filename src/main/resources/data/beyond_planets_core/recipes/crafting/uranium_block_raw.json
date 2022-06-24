@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beyond_planets_core:raw_ore_uranium"
+    }
+  },
+  "result": {
+    "item": "beyond_planets_core:uranium_block_raw"
+  }
+}

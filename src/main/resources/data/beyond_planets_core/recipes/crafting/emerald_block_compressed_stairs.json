@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "beyond_planets_core:emerald_block_compressed_stairs",
+    "count": 4
+  }
+}

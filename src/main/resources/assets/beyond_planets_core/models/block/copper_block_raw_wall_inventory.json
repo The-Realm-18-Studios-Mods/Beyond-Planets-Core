@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "beyond_planets_core:blocks/block_raw/copper_block_raw"
+  }
+}

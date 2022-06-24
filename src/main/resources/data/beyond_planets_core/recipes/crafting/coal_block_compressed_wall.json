@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "beyond_planets_core:coal_block_compressed_wall",
+    "count": 6
+  }
+}

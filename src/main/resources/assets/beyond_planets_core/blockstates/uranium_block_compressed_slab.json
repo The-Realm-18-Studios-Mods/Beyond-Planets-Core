@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyond_planets_core:block/uranium_block_compressed_slab"
+    },
+    "type=double": {
+      "model": "beyond_planets_core:block/uranium_block_compressed"
+    },
+    "type=top": {
+      "model": "beyond_planets_core:block/uranium_block_compressed_slab_top"
+    }
+  }
+}

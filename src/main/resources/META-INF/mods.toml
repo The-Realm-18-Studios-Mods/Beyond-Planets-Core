@@ -6,8 +6,8 @@ license="All rights reserved"
 modId="beyond_planets_core"
 version="${file.jarVersion}"
 displayName="Beyond Planets - Core"
-credits="TheRealM18"
-authors="TheRealM18"
+credits="The Realm18 Studios"
+authors="The Realm18 Studios"
 description='''
 This mod for the core of Beyond Planets.
 '''
@@ -28,7 +28,14 @@ This mod for the core of Beyond Planets.
 
 [[dependencies.beyond_planets_core]]
     modId="beyond_earth"
-    mandatory=true
-    versionRange="[6.1,)"
+    mandatory=false
+    versionRange="[6.2,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.beyond_planets_core]]
+    modId="futurepack"
+    mandatory=false
+    versionRange="[33.0,)"
     ordering="AFTER"
     side="BOTH"

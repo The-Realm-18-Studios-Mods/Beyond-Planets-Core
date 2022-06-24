@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyond_planets_core:block/redstone_block_compressed_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/redstone_block"
+    },
+    "type=top": {
+      "model": "beyond_planets_core:block/redstone_block_compressed_slab_top"
+    }
+  }
+}

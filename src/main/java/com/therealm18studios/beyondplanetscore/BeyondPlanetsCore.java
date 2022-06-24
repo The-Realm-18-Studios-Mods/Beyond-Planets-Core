@@ -5,6 +5,7 @@ import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenera
 import com.therealm18studios.beyondplanetscore.configurations.menelaus.MenelausOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.moon.MoonOreGenerationCommon;
+import com.therealm18studios.beyondplanetscore.configurations.supported.ModsSupportCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.registries.BlocksRegistry;
 import com.therealm18studios.beyondplanetscore.registries.ItemsRegistry;
@@ -40,6 +41,7 @@ public class BeyondPlanetsCore
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MercuryOreGenerationCommon.SPEC, "TheRealM18Studios//beyond_planets_core//Beyond Earth//Mercury//ore_configuration-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GlacioOreGenerationCommon.SPEC, "TheRealM18Studios//beyond_planets_core//Beyond Earth//Glacio//ore_configuration-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MenelausOreGenerationCommon.SPEC, "TheRealM18Studios//beyond_planets_core//Futurepack//Menelaus//ore_configuration-common.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ModsSupportCommon.SPEC, "TheRealM18Studios//beyond_planets_core//Mod Toggle//mod_support-common.toml");
 
         //Registries
         ItemsRegistry.ITEMS.register(bus);

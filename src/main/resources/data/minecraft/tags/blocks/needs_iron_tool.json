@@ -21,6 +21,50 @@
     "beyond_planets_core:glacio_uranium_ore",
     "beyond_planets_core:glacio_cobalt_ore",
 
+    "beyond_planets_core:uranium_block_raw",
+    "beyond_planets_core:lead_block_raw",
+    "beyond_planets_core:cobalt_block_raw",
+
+    "beyond_planets_core:gold_block_raw_wall",
+    "beyond_planets_core:uranium_block_raw_wall",
+    "beyond_planets_core:lead_block_raw_wall",
+    "beyond_planets_core:cobalt_block_raw_wall",
+
+    "beyond_planets_core:gold_block_raw_slab",
+    "beyond_planets_core:uranium_block_raw_slab",
+    "beyond_planets_core:lead_block_raw_slab",
+    "beyond_planets_core:cobalt_block_raw_slab",
+
+    "beyond_planets_core:gold_block_raw_stairs",
+    "beyond_planets_core:uranium_block_raw_stairs",
+    "beyond_planets_core:lead_block_raw_stairs",
+    "beyond_planets_core:cobalt_block_raw_stairs",
+
+    "beyond_planets_core:uranium_block_compressed",
+    "beyond_planets_core:lead_block_compressed",
+    "beyond_planets_core:cobalt_block_compressed",
+
+    "beyond_planets_core:diamond_block_compressed_wall",
+    "beyond_planets_core:emerald_block_compressed_wall",
+    "beyond_planets_core:gold_block_compressed_wall",
+    "beyond_planets_core:uranium_block_compressed_wall",
+    "beyond_planets_core:lead_block_compressed_wall",
+    "beyond_planets_core:cobalt_block_compressed_wall",
+
+    "beyond_planets_core:diamond_block_compressed_slab",
+    "beyond_planets_core:emerald_block_compressed_slab",
+    "beyond_planets_core:gold_block_compressed_slab",
+    "beyond_planets_core:uranium_block_compressed_slab",
+    "beyond_planets_core:lead_block_compressed_slab",
+    "beyond_planets_core:cobalt_block_compressed_slab",
+
+    "beyond_planets_core:diamond_block_compressed_stairs",
+    "beyond_planets_core:emerald_block_compressed_stairs",
+    "beyond_planets_core:gold_block_compressed_stairs",
+    "beyond_planets_core:uranium_block_compressed_stairs",
+    "beyond_planets_core:lead_block_compressed_stairs",
+    "beyond_planets_core:cobalt_block_compressed_stairs",
+
     "beyond_planets_core:menelaus_lead_ore",
     "beyond_planets_core:menelaus_uranium_ore",
     "beyond_planets_core:menelaus_cobalt_ore"

@@ -19,6 +19,10 @@
 
     "beyond_planets_core:glacio_lead_ore",
     "beyond_planets_core:glacio_uranium_ore",
-    "beyond_planets_core:glacio_cobalt_ore"
+    "beyond_planets_core:glacio_cobalt_ore",
+
+    "beyond_planets_core:menelaus_lead_ore",
+    "beyond_planets_core:menelaus_uranium_ore",
+    "beyond_planets_core:menelaus_cobalt_ore"
   ]
 }

@@ -1,13 +1,4 @@
 {
-  "block.beyond_planets_core.lead_block_raw": "Block Of Raw Lead",
-  "block.beyond_planets_core.lead_block_raw_wall": "Block Of Raw Lead Wall",
-  "block.beyond_planets_core.lead_block_raw_slab": "Block Of Raw Lead Slab",
-  "block.beyond_planets_core.lead_block_raw_stairs": "Block Of Raw Lead Stairs",
-  
-  "block.beyond_planets_core.gold_block_compressed_wall": "Block Of Gold Wall",
-  "block.beyond_planets_core.gold_block_compressed_slab": "Block Of Gold Slab",
-  "block.beyond_planets_core.gold_block_compressed_stairs": "Block Of Gold Stairs",
-
   "block.beyond_planets_core.mars_copper_ore": "Mars Copper Ore",
   "block.beyond_planets_core.mars_tin_ore": "Mars Tin Ore",
   "block.beyond_planets_core.mars_zinc_ore": "Mars Zinc Ore",
@@ -53,17 +44,17 @@
   "block.beyond_planets_core.glacio_cobalt_ore": "Glacio Cobalt Ore",
 
 
-  "block.beyond_planets_core.tin_block_raw": "Raw Tin Block",
-  "block.beyond_planets_core.zinc_block_raw": "Raw Zinc Block",
-  "block.beyond_planets_core.uranium_block_raw": "Raw Uranium Block",
-  "block.beyond_planets_core.lead_block_raw": "Raw Lead Block",
-  "block.beyond_planets_core.cobalt_block_raw": "Raw Cobalt Block",
+  "block.beyond_planets_core.tin_block_raw": "Block Of Raw Tin",
+  "block.beyond_planets_core.zinc_block_raw": "Block Of Raw Zinc",
+  "block.beyond_planets_core.uranium_block_raw": "Block Of Raw Uranium",
+  "block.beyond_planets_core.lead_block_raw": "Block Of Raw Lead",
+  "block.beyond_planets_core.cobalt_block_raw": "Block Of Raw Cobalt",
 
 
   "block.beyond_planets_core.copper_block_raw_wall": "Raw Copper Wall",
   "block.beyond_planets_core.gold_block_raw_wall": "Raw Gold Wall",
   "block.beyond_planets_core.iron_block_raw_wall": "Raw Iron Wall",
-  "block.beyond_planets_core.tin_block_raw_wall": " Raw Tin Wall",
+  "block.beyond_planets_core.tin_block_raw_wall": "Raw Tin Wall",
   "block.beyond_planets_core.zinc_block_raw_wall": "Raw Zinc Wall",
   "block.beyond_planets_core.uranium_block_raw_wall": "Raw Uranium Wall",
   "block.beyond_planets_core.lead_block_raw_wall": "Raw Lead Wall",
@@ -90,11 +81,11 @@
   "block.beyond_planets_core.cobalt_block_raw_stairs": "Raw Cobalt Stairs",
 
 
-  "block.beyond_planets_core.tin_block_compressed": "Tin Block",
-  "block.beyond_planets_core.zinc_block_compressed": "Zinc Block",
-  "block.beyond_planets_core.uranium_block_compressed": "Uranium Block",
-  "block.beyond_planets_core.lead_block_compressed": "Lead Block",
-  "block.beyond_planets_core.cobalt_block_compressed": "Cobalt Block",
+  "block.beyond_planets_core.tin_block_compressed": "Block Of Tin",
+  "block.beyond_planets_core.zinc_block_compressed": "Block Of Zinc",
+  "block.beyond_planets_core.uranium_block_compressed": "Block Of Uranium",
+  "block.beyond_planets_core.lead_block_compressed": "Block Of Lead",
+  "block.beyond_planets_core.cobalt_block_compressed": "Block Of Cobalt",
 
 
   "block.beyond_planets_core.redstone_block_compressed_wall": "Redstone Wall",
@@ -104,6 +95,7 @@
   "block.beyond_planets_core.copper_block_compressed_wall": "Copper Wall",
   "block.beyond_planets_core.gold_block_compressed_wall": "Gold Wall",
   "block.beyond_planets_core.iron_block_compressed_wall": "Iron Wall",
+  "block.beyond_planets_core.lapis_block_compressed_wall": "Lapis Wall",
   "block.beyond_planets_core.tin_block_compressed_wall": "Tin Wall",
   "block.beyond_planets_core.zinc_block_compressed_wall": "Zinc Wall",
   "block.beyond_planets_core.uranium_block_compressed_wall": "Uranium Wall",
@@ -115,7 +107,7 @@
   "block.beyond_planets_core.diamond_block_compressed_slab": "Diamond Slab",
   "block.beyond_planets_core.emerald_block_compressed_slab": "Emerald Slab",
   "block.beyond_planets_core.coal_block_compressed_slab": "Coal Slab",
-  "block.beyond_planets_core.copper_block_compressed_slab": "Copper Slab",
+  "block.beyond_planets_core.lapis_block_compressed_slab": "Lapis Slab",
   "block.beyond_planets_core.gold_block_compressed_slab": "Gold Slab",
   "block.beyond_planets_core.iron_block_compressed_slab": "Iron Slab",
   "block.beyond_planets_core.tin_block_compressed_slab": "Tin Slab",
@@ -129,7 +121,7 @@
   "block.beyond_planets_core.diamond_block_compressed_stairs": "Diamond Stairs",
   "block.beyond_planets_core.emerald_block_compressed_stairs": "Emerald Stairs",
   "block.beyond_planets_core.coal_block_compressed_stairs": "Coal Stairs",
-  "block.beyond_planets_core.copper_block_compressed_stairs": "Copper Stairs",
+  "block.beyond_planets_core.lapis_block_compressed_stairs": "Lapis Stairs",
   "block.beyond_planets_core.gold_block_compressed_stairs": "Gold Stairs",
   "block.beyond_planets_core.iron_block_compressed_stairs": "Iron Stairs",
   "block.beyond_planets_core.tin_block_compressed_stairs": "Tin Stairs",

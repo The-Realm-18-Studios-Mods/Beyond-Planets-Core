@@ -3,7 +3,7 @@
   "group": "tin_ingot",
   "ingredients": [
     {
-      "item": "beyond_planets_core:tin_block_compressed"
+      "item": "beyond_planets_core:tin_block_raw"
     }
   ],
   "result": {

@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "###",
     "###"
   ],
   "key": {
@@ -9,7 +10,7 @@
     }
   },
   "result": {
-    "item": "beyond_planets_core:uranium_block_compressed_slab",
+    "item": "beyond_planets_core:uranium_block_compressed_wall",
     "count": 6
   }
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:raw_gold"
+    "item": "minecraft:raw_gold_block"
   },
   "result": "beyond_planets_core:gold_block_raw_stairs",
   "count": 1

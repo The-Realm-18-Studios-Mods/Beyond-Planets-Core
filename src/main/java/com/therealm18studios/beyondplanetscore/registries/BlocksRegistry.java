@@ -45,6 +45,7 @@ public class BlocksRegistry {
     public static RegistryObject<Block> COPPER_BLOCK_RAW_WALL = BLOCKS.register("copper_block_raw_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> COPPER_BLOCK_RAW_SLAB = BLOCKS.register("copper_block_raw_slab", () -> { return new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> COPPER_BLOCK_RAW_STAIR = BLOCKS.register("copper_block_raw_stairs", () -> { return new StairBlock(() -> Blocks.RAW_COPPER_BLOCK.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> COPPER_BLOCK_COMPRESSED_WALL = BLOCKS.register("copper_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
 
     // Diamond Blocks
     public static RegistryObject<Block> DIAMOND_BLOCK_COMPRESSED_WALL = BLOCKS.register("diamond_block_compressed_wall", () -> { return new WallBlock(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});

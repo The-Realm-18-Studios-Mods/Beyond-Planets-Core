@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side_tall",
   "textures": {
-    "wall": "beyond_planets_core:blocks/block_raw/copper_block_raw"
+    "wall": "minecraft:block/raw_copper_block"
   }
 }

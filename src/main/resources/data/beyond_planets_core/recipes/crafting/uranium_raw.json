@@ -3,7 +3,7 @@
   "group": "uranium_ingot",
   "ingredients": [
     {
-      "item": "beyond_planets_core:uranium_block_compressed"
+      "item": "beyond_planets_core:uranium_block_raw"
     }
   ],
   "result": {

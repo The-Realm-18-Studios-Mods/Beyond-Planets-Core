@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:raw_copper"
+    "item": "minecraft:raw_copper_block"
   },
   "result": "beyond_planets_core:copper_block_raw_stairs",
   "count": 1

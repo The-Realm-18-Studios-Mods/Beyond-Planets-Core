@@ -1,15 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "beyond_planets_core:cobalt_block_compressed"
+      "item": "beyond_planets_core:cobalt_block_raw"
     }
   },
   "result": {
-    "item": "beyond_planets_core:cobalt_block_compressed_slab",
+    "item": "beyond_planets_core:cobalt_block_raw_wall",
     "count": 6
   }
 }

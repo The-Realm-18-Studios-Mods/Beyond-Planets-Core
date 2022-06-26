@@ -64,6 +64,7 @@ public class ItemsRegistry {
     public static final RegistryObject<BlockItem> COPPER_BLOCK_RAW_WALLITEM = ITEMS.register("copper_block_raw_wall", () -> new BlockItem(BlocksRegistry.COPPER_BLOCK_RAW_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<BlockItem> COPPER_BLOCK_RAW_SLABITEM = ITEMS.register("copper_block_raw_slab", () -> new BlockItem(BlocksRegistry.COPPER_BLOCK_RAW_SLAB.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<BlockItem> COPPER_BLOCK_RAW_STAIRSITEM = ITEMS.register("copper_block_raw_stairs", () -> new BlockItem(BlocksRegistry.COPPER_BLOCK_RAW_STAIR.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> COPPER_BLOCK_COMPRESSED_WALLITEM = ITEMS.register("copper_block_compressed_wall", () -> new BlockItem(BlocksRegistry.COPPER_BLOCK_COMPRESSED_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));
 
     // Diamond Blocks
     public static final RegistryObject<BlockItem> DIAMOND_BLOCK_COMPRESSED_WALLITEM = ITEMS.register("diamond_block_compressed_wall", () -> new BlockItem(BlocksRegistry.DIAMOND_BLOCK_COMPRESSED_WALL.get(), new Item.Properties().tab(ItemGroups.TAB_BUILDING_BLOCKS)));

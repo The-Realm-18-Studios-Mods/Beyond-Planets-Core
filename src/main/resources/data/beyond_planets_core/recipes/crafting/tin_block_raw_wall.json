@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "beyond_planets_core:tin_block_compressed"
+      "item": "beyond_planets_core:tin_block_raw"
     }
   },
   "result": {
-    "item": "beyond_planets_core:tin_block_compressed_wall",
+    "item": "beyond_planets_core:tin_block_raw_wall",
     "count": 6
   }
 }

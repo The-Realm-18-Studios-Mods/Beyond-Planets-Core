@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lead_ingot",
+  "ingredients": [
+    {
+      "item": "beyond_planets_core:lead_block_raw"
+    }
+  ],
+  "result": {
+    "item": "beyond_planets_core:raw_ore_lead",
+    "count": 9
+  }
+}

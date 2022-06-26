@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "beyond_planets_core:uranium_block_raw"
+      "item": "beyond_planets_core:lead_block_compressed"
     }
   },
   "result": {
-    "item": "beyond_planets_core:uranium_block_raw_wall",
+    "item": "beyond_planets_core:lead_block_compressed_wall",
     "count": 6
   }
 }

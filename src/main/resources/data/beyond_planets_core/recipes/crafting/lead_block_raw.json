@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
+    "###",
     "###"
   ],
   "key": {
     "#": {
-      "item": "beyond_planets_core:uranium_block_raw"
+      "item": "beyond_planets_core:raw_ore_lead"
     }
   },
   "result": {
-    "item": "beyond_planets_core:uranium_block_raw_wall",
-    "count": 6
+    "item": "beyond_planets_core:lead_block_raw"
   }
 }

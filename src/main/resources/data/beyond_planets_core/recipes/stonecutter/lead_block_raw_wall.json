@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "beyond_planets_core:lead_block_raw"
+  },
+  "result": "beyond_planets_core:lead_block_raw_wall",
+  "count": 1
+}

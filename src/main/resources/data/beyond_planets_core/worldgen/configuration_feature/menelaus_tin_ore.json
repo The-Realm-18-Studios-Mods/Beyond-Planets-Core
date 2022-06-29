@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 17,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "futurepack:base_stone_menelaus"
+        },
+        "state": {
+          "Name": "beyond_planets_core:menelaus_tin_ore"
+        }
+      }
+    ]
+  }
+}

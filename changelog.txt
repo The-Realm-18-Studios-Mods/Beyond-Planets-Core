@@ -26,6 +26,7 @@ Release 1.0.12 (1.18.2)
 * Added Language file for en_us for Coal, Diamond, Emerald, Lapis, Redstone, Gold, Iron, Raw Copper, Raw Iron, Raw Gold, Lead, Cobalt, Tin, Uranium, Zinc, BPC: Decoration Blocks
 * Changed the naming convention for the creative tabs
 * Added New Decoration Creative Tab
+* Changed the ore Distribution way. (Might be a good idea to wipe the configuration folder and get it to rebuild it.)
 
  
 

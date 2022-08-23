@@ -172,17 +172,4 @@ public class BlocksRegistry {
     public static RegistryObject<Block> GLACIO_URANIUM_ORE = BLOCKS.register("glacio_uranium_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> GLACIO_ZINC_ORE = BLOCKS.register("glacio_zinc_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> GLACIO_COBALT_ORE = BLOCKS.register("glacio_cobalt_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-
-    /**
-     * Futurepack
-     */
-
-    //Menelaus Ores
-    public static RegistryObject<Block> MENELAUS_COPPER_ORE = BLOCKS.register("menelaus_copper_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> MENELAUS_LEAD_ORE = BLOCKS.register("menelaus_lead_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> MENELAUS_TIN_ORE = BLOCKS.register("menelaus_tin_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> MENELAUS_URANIUM_ORE = BLOCKS.register("menelaus_uranium_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> MENELAUS_ZINC_ORE = BLOCKS.register("menelaus_zinc_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> MENELAUS_COBALT_ORE = BLOCKS.register("menelaus_cobalt_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
-    public static RegistryObject<Block> MENELAUS_COAL_ORE = BLOCKS.register("menelaus_coal_ore", () -> { return new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 1f).requiresCorrectToolForDrops());});
 }

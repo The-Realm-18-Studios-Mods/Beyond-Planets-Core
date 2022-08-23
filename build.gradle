@@ -27,11 +27,9 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-
+            property 'mixin.env.disableRefMap', 'true'
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             property 'forge.enabledGameTestNamespaces', 'beyondplanetscore'
 
             mods {
@@ -43,7 +41,7 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-
+            property 'mixin.env.disableRefMap', 'true'
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'beyondplanetscore'
@@ -67,9 +65,6 @@ dependencies {
 
     // Beyond Earth Forge
     implementation fg.deobf("com.github.MrScautHD:Beyond-Earth:${project.mc_version}-${project.be_version}")
-
-    // Futurepack Forge
-    implementation fg.deobf("futurepack:Futurepack:${project.mc_version}-${project.fp_version}")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

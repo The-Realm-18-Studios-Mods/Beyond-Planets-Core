@@ -3,12 +3,10 @@ package com.therealm18studios.beyondplanetscore.world.oregen;
 import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
 import com.therealm18studios.beyondplanetscore.configurations.glacio.GlacioOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
-import com.therealm18studios.beyondplanetscore.configurations.menelaus.MenelausOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.moon.MoonOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.venus.VenusOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.registries.BlocksRegistry;
-import com.therealm18studios.beyondplanetscore.utilities.SupportedMods;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -23,6 +21,7 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import net.mrscauthd.beyond_earth.BeyondEarthMod;
 
 import java.util.List;
 
@@ -39,7 +38,7 @@ public class    OreGeneration {
     /**
      * MARS ORES:
      */
-    public static final TagKey<Block> MARS_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(SupportedMods.BEMODID, "mars_ore_replaceables"));
+    public static final TagKey<Block> MARS_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(BeyondEarthMod.MODID, "mars_ore_replaceables"));
     public static final RuleTest MARS_MATCH = new TagMatchTest(MARS_ORE_REPLACEABLES);
 
     // MARS_COPPER_ORE
@@ -74,7 +73,7 @@ public class    OreGeneration {
     /**
      * VENUS ORES:
      */
-    public static final TagKey<Block> VENUS_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(SupportedMods.BEMODID, "venus_ore_replaceables"));
+    public static final TagKey<Block> VENUS_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(BeyondEarthMod.MODID, "venus_ore_replaceables"));
     public static final RuleTest VENUS_MATCH = new TagMatchTest(VENUS_ORE_REPLACEABLES);
 
     // VENUS_COPPER_ORE
@@ -105,7 +104,7 @@ public class    OreGeneration {
     /**
      * MOON ORES:
      */
-    public static final TagKey<Block> MOON_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(SupportedMods.BEMODID, "moon_ore_replaceables"));
+    public static final TagKey<Block> MOON_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(BeyondEarthMod.MODID, "moon_ore_replaceables"));
     public static final RuleTest MOON_MATCH = new TagMatchTest(MOON_ORE_REPLACEABLES);
 
     // MOON_COPPER_ORE
@@ -140,7 +139,7 @@ public class    OreGeneration {
     /**
      * MERCURY ORES:
      */
-    public static final TagKey<Block> MERCURY_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(SupportedMods.BEMODID, "mercury_ore_replaceables"));
+    public static final TagKey<Block> MERCURY_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(BeyondEarthMod.MODID, "mercury_ore_replaceables"));
     public static final RuleTest MERCURY_MATCH = new TagMatchTest(MERCURY_ORE_REPLACEABLES);
 
     // MERCURY_COPPER_ORE
@@ -175,7 +174,7 @@ public class    OreGeneration {
     /**
      * GLACIO ORES:
      */
-    public static final TagKey<Block> GLACIO_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(SupportedMods.BEMODID, "mars_ore_replaceables"));
+    public static final TagKey<Block> GLACIO_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(BeyondEarthMod.MODID, "mars_ore_replaceables"));
     public static final RuleTest GLACIO_MATCH = new TagMatchTest(GLACIO_ORE_REPLACEABLES);
 
     // GLACIO_LEAD_ORE_ORE
@@ -198,46 +197,6 @@ public class    OreGeneration {
     public static final RegistryObject<ConfiguredFeature<?,?>> GLACIO_COBALT_ORE_CONFIGURED = CONFIGURED_FEATURES.register("glacio_cobalt_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(GLACIO_MATCH, BlocksRegistry.GLACIO_COBALT_ORE.get().defaultBlockState(), 8)));
     public static final RegistryObject<PlacedFeature> GLACIO_COBALT_ORE = PLACED_FEATURES.register("glacio_cobalt_ore", () -> new PlacedFeature(GLACIO_COBALT_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(GlacioOreGenerationCommon.GLACIOCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(GlacioOreGenerationCommon.GLACIOCOBALTHEIGHTTOP.get())))));
 
-
-
-    /**
-     * Futurepack:
-     */
-
-    /**
-     * MENELAUS ORES:
-     */
-
-    public static final TagKey<Block> MENELAUS_ORE_REPLACEABLES = TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(SupportedMods.FPMODID, "base_stone_menelaus"));
-    public static final RuleTest MENELAUS_MATCH = new TagMatchTest(MENELAUS_ORE_REPLACEABLES);
-
-    // MENELAUS_COPPER_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MENELAUS_COPPER_ORE_CONFIGURED = CONFIGURED_FEATURES.register("menelaus_copper_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MENELAUS_MATCH, BlocksRegistry.MENELAUS_COPPER_ORE.get().defaultBlockState(), 10)));
-    public static final RegistryObject<PlacedFeature> MENELAUS_COPPER_ORE = PLACED_FEATURES.register("menelaus_copper_ore", () -> new PlacedFeature(MENELAUS_COPPER_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MenelausOreGenerationCommon.MENELAUSCOPPERVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSCOPPERHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSCOPPERHEIGHTTOP.get())))));
-
-    // MENELAUS_LEAD_ORE_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MENELAUS_LEAD_ORE_CONFIGURED = CONFIGURED_FEATURES.register("menelaus_lead_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MENELAUS_MATCH, BlocksRegistry.MENELAUS_LEAD_ORE.get().defaultBlockState(), 11)));
-    public static final RegistryObject<PlacedFeature> MENELAUS_LEAD_ORE = PLACED_FEATURES.register("menelaus_lead_ore", () -> new PlacedFeature(MENELAUS_LEAD_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MenelausOreGenerationCommon.MENELAUSLEADVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.absolute(MenelausOreGenerationCommon.MENELAUSLEADHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSLEADHEIGHTTOP.get())))));
-
-    // MENELAUS_TIN_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MENELAUS_TIN_ORE_CONFIGURED = CONFIGURED_FEATURES.register("menelaus_tin_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MENELAUS_MATCH, BlocksRegistry.MENELAUS_TIN_ORE.get().defaultBlockState(), 7)));
-    public static final RegistryObject<PlacedFeature> MENELAUS_TIN_ORE = PLACED_FEATURES.register("menelaus_tin_ore", () -> new PlacedFeature(MENELAUS_TIN_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MenelausOreGenerationCommon.MENELAUSTINVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSTINHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSTINHEIGHTTOP.get())))));
-
-    // MENELAUS_URANIUM_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MENELAUS_URANIUM_ORE_CONFIGURED = CONFIGURED_FEATURES.register("menelaus_uranium_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MENELAUS_MATCH, BlocksRegistry.MENELAUS_URANIUM_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MENELAUS_URANIUM_ORE = PLACED_FEATURES.register("menelaus_uranium_ore", () -> new PlacedFeature(MENELAUS_URANIUM_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MenelausOreGenerationCommon.MENELAUSURANIUMVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSURANIUMHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSURANIUMHEIGHTTOP.get())))));
-
-    // MENELAUS_ZINC_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MENELAUS_ZINC_ORE_CONFIGURED = CONFIGURED_FEATURES.register("menelaus_zinc_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MENELAUS_MATCH, BlocksRegistry.MENELAUS_ZINC_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MENELAUS_ZINC_ORE = PLACED_FEATURES.register("menelaus_zinc_ore", () -> new PlacedFeature(MENELAUS_ZINC_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MenelausOreGenerationCommon.MENELAUSZINCVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSZINCHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSZINCHEIGHTTOP.get())))));
-
-    // MENELAUS_COBALT_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MENELAUS_COBALT_ORE_CONFIGURED = CONFIGURED_FEATURES.register("menelaus_cobalt_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MENELAUS_MATCH, BlocksRegistry.MENELAUS_COBALT_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MENELAUS_COBALT_ORE = PLACED_FEATURES.register("menelaus_cobalt_ore", () -> new PlacedFeature(MENELAUS_COBALT_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MenelausOreGenerationCommon.MENELAUSCOBALTVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSCOBALTHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSCOBALTHEIGHTTOP.get())))));
-
-    //MENELAUS_COAL_ORE
-    public static final RegistryObject<ConfiguredFeature<?,?>> MENELAUS_COAL_ORE_CONFIGURED = CONFIGURED_FEATURES.register("menelaus_coal_ore", () -> new ConfiguredFeature(Feature.ORE, new OreConfiguration(MENELAUS_MATCH, BlocksRegistry.MENELAUS_COAL_ORE.get().defaultBlockState(), 8)));
-    public static final RegistryObject<PlacedFeature> MENELAUS_COAL_ORE = PLACED_FEATURES.register("menelaus_coal_ore", () -> new PlacedFeature(MENELAUS_COAL_ORE_CONFIGURED.getHolder().get(), commonOrePlacement(MenelausOreGenerationCommon.MENELAUSCOALVEIN.get(), HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSCOALHEIGHTBOTTOM.get()), VerticalAnchor.aboveBottom(MenelausOreGenerationCommon.MENELAUSCOALHEIGHTTOP.get())))));
 
     /** ORE PLACEMENTS */
     private static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {

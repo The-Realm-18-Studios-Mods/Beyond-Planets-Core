@@ -4,7 +4,7 @@
       "model": "beyond_planets_core:block/copper_block_raw_slab"
     },
     "type=double": {
-      "model": "beyond_planets_core:block/copper_block_raw"
+      "model": "minecraft:block/raw_copper_block"
     },
     "type=top": {
       "model": "beyond_planets_core:block/copper_block_raw_slab_top"

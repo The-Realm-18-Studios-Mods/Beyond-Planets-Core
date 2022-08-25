@@ -63,10 +63,6 @@
     "beyond_planets_core:gold_block_compressed_stairs",
     "beyond_planets_core:uranium_block_compressed_stairs",
     "beyond_planets_core:lead_block_compressed_stairs",
-    "beyond_planets_core:cobalt_block_compressed_stairs",
-
-    "beyond_planets_core:menelaus_lead_ore",
-    "beyond_planets_core:menelaus_uranium_ore",
-    "beyond_planets_core:menelaus_cobalt_ore"
+    "beyond_planets_core:cobalt_block_compressed_stairs"
   ]
 }

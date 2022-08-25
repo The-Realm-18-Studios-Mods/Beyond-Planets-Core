@@ -24,7 +24,7 @@
     "beyond_planets_core:moon_cobalt_ore",
     "beyond_planets_core:moon_coal_ore",
     
-	  "beyond_planets_core:mercury_copper_ore",
+    "beyond_planets_core:mercury_copper_ore",
     "beyond_planets_core:mercury_lead_ore",
     "beyond_planets_core:mercury_tin_ore",
     "beyond_planets_core:mercury_uranium_ore",
@@ -36,14 +36,6 @@
     "beyond_planets_core:glacio_tin_ore",
     "beyond_planets_core:glacio_uranium_ore",
     "beyond_planets_core:glacio_zinc_ore",
-    "beyond_planets_core:glacio_cobalt_ore",
-
-    "beyond_planets_core:menelaus_copper_ore",
-    "beyond_planets_core:menelaus_lead_ore",
-    "beyond_planets_core:menelaus_tin_ore",
-    "beyond_planets_core:menelaus_uranium_ore",
-    "beyond_planets_core:menelaus_zinc_ore",
-    "beyond_planets_core:menelaus_cobalt_ore",
-    "beyond_planets_core:menelaus_coal_ore"
+    "beyond_planets_core:glacio_cobalt_ore"
   ]
 }

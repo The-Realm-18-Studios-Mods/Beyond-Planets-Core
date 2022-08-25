@@ -61,11 +61,6 @@
     "beyond_planets_core:coal_block_compressed_stairs",
     "beyond_planets_core:iron_block_compressed_stairs",
     "beyond_planets_core:tin_block_compressed_stairs",
-    "beyond_planets_core:zinc_block_compressed_stairs",
-
-    "beyond_planets_core:menelaus_copper_ore",
-    "beyond_planets_core:menelaus_tin_ore",
-    "beyond_planets_core:menelaus_coal_ore",
-    "beyond_planets_core:menelaus_zinc_ore"
+    "beyond_planets_core:zinc_block_compressed_stairs"
   ]
 }

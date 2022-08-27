@@ -16,26 +16,19 @@ This mod for the core of Beyond Planets.
     modId="forge"
     mandatory=true
     versionRange="[40.1.51,)"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 [[dependencies.beyond_planets_core]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,)"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 [[dependencies.beyond_planets_core]]
     modId="beyond_earth"
     mandatory=false
     versionRange="[6.2,)"
-    ordering="AFTER"
-    side="BOTH"
-
-[[dependencies.beyond_planets_core]]
-    modId="futurepack"
-    mandatory=false
-    versionRange="[33.0,)"
     ordering="AFTER"
     side="BOTH"

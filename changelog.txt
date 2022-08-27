@@ -14,6 +14,13 @@ Beta 1.0.12 (1.19)
 
  
 
+Release 1.0.15 (1.18.2)
+
+* Fixed all the issues that was causing all mods' pickaxes loot tables to break.
+* Added back the required tool of a pickaxe.
+
+ 
+
 Release 1.0.14 (1.18.2)
 
 * Fixed possible issues with loot tables.  Depending on what time you load your minecraft, depends on if it works.  I think this is a forge bug.

@@ -14,8 +14,7 @@ Discord: [here](https://discord.gg/tWfYRpKNKW)
 # Credits #
 
 * Lego245
-* Paws of Aries
-* Mossy
+* Aflora
 * TheRealM18
 * Iamruukie
 * TheCraftingBunny
